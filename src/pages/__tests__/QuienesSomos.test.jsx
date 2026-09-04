@@ -24,6 +24,18 @@ test('vídeo local y carrusel de 10 imágenes', () => {
   expect(screen.getByRole('link', { name: /Ver todos los proyectos/ })).toHaveAttribute('href', '/proyectos')
 })
 
+test('CTA final incluye el teléfono', () => {
+  setup()
+  expect(screen.getByText(/También puedes llamarnos al/)).toBeInTheDocument()
+  const tel = screen.getByRole('link', { name: '311 645 6726' })
+  expect(tel).toHaveAttribute('href', 'tel:+573116456726')
+})
+
+test('el label "Ver el video" es negro', () => {
+  setup()
+  expect(screen.getByText('Ver el video')).toHaveStyle({ color: 'rgb(0, 0, 0)' })
+})
+
 test('LocalVideo: play arranca el vídeo', async () => {
   const play = vi.spyOn(window.HTMLMediaElement.prototype, 'play').mockResolvedValue()
   setup()

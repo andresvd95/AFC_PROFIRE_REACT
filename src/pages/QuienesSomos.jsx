@@ -118,6 +118,12 @@ export default function QuienesSomos() {
             <i className="icon-arrow-right"></i>
             <span>Contactar ahora</span>
           </a>
+          <p className="mt-20" style={{ color: '#666', fontSize: '0.95rem' }}>
+            También puedes llamarnos al{' '}
+            <a href="tel:+573116456726" style={{ color: '#ef7d00', fontWeight: 600 }}>
+              311 645 6726
+            </a>
+          </p>
         </div>
       </section>
     </>
