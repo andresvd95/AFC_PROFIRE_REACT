@@ -4,19 +4,31 @@ import { initTheme, destroyTheme } from '../lib/theme'
 import { routeTitle } from '../lib/useDocumentTitle'
 import { blogPosts } from '../data/blogPosts'
 
-// Efectos por cambio de ruta: scroll arriba, oculta preloader, fija título,
-// y re-inicializa los plugins jQuery del tema (destroy anterior -> init nuevo).
+// Efectos por cambio de ruta: scroll arriba, título, y re-inicialización de los
+// plugins jQuery del tema. Espera a que jQuery + slick estén cargados (los
+// <script> de index.html pueden tardar) antes de llamar a initTheme().
+// El preloader lo gestiona <Preloader/> (se muestra hasta window.load).
 export default function RouteEffects() {
   const { pathname } = useLocation()
 
   useEffect(() => {
     window.scrollTo(0, 0)
-    const pre = document.querySelector('.preloader')
-    if (pre) pre.style.display = 'none'
     document.title = routeTitle(pathname, { blogPosts })
 
     destroyTheme()
-    const id = window.setTimeout(initTheme, 60)
+
+    let id
+    let tries = 0
+    const tick = () => {
+      const $ = window.jQuery
+      if ($ && $.fn && $.fn.slick) {
+        initTheme()
+        return
+      }
+      if (tries++ < 40) id = window.setTimeout(tick, 75)
+    }
+    id = window.setTimeout(tick, 30)
+
     return () => window.clearTimeout(id)
   }, [pathname])
 

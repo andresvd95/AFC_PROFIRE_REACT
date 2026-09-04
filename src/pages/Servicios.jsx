@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import PageTitle from '../components/PageTitle'
 import ContactForm from '../components/ContactForm'
+import { bgCover } from '../lib/bg'
 import { serviciosGroup1, serviciosGroup2 } from '../data/services'
 
 const TITLE_STYLE = { color: '#004062' }
@@ -170,10 +171,10 @@ export default function Servicios() {
       </section>
 
       {/* Contacto */}
-      <section className="contact-layout2 pb-0 bg-overlay bg-overlay-primary-gradient">
-        <div className="bg-img">
-          <img src="/assets/images/banners/2.jpg" alt="" />
-        </div>
+      <section
+        className="contact-layout2 pb-0 bg-overlay bg-overlay-primary-gradient"
+        style={bgCover('/assets/images/banners/2.jpg')}
+      >
         <div className="container">
           <div className="row">
             <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6">

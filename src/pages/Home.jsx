@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import '../styles/home.css'
 import ContactForm from '../components/ContactForm'
+import { bgCover } from '../lib/bg'
 import { homeServicesMain, homeServicesComplementary } from '../data/services'
 
 const CAROUSEL_1 = JSON.stringify({
@@ -129,10 +130,10 @@ export default function Home() {
       </section>
 
       {/* =========================== formulario ============================= */}
-      <section className="contact-layout2 pb-80 bg-overlay bg-overlay-primary-gradient">
-        <div className="bg-img">
-          <img src="/assets/images/banners/2.jpg" alt="" />
-        </div>
+      <section
+        className="contact-layout2 pb-80 bg-overlay bg-overlay-primary-gradient"
+        style={bgCover('/assets/images/banners/2.jpg')}
+      >
         <div className="container">
           <div className="row">
             <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6">
@@ -155,10 +156,7 @@ export default function Home() {
       </section>
 
       {/* ====================== services Layout 2 ========================= */}
-      <section className="services-layout2 pt-120">
-        <div className="bg-img">
-          <img src="/assets/images/backgrounds/5.jpg" alt="background" />
-        </div>
+      <section className="services-layout2 pt-120" style={bgCover('/assets/images/backgrounds/5.jpg')}>
         <div className="container">
           <div className="row mb-40">
             <div className="col-12">

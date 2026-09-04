@@ -12,6 +12,10 @@ test('título, breadcrumb y scroll-down', () => {
   expect(within(crumb).getByRole('link', { name: 'Inicio' })).toHaveAttribute('href', '/')
   expect(within(crumb).getByText('Proyectos')).toBeInTheDocument()
   expect(document.querySelector('a.scroll-down[href="#gallery"]')).toBeTruthy()
+  const banner = document.querySelector('.page-title-layout1')
+  expect(banner).toHaveStyle({ backgroundSize: 'cover', backgroundPosition: 'center' })
+  expect(banner.style.backgroundImage).toContain('banner-proyectos.png')
+  expect(document.querySelector('.page-title-layout1 .bg-img')).toBeFalsy()
 })
 
 test('19 imágenes con lightbox y 2 vídeos', () => {

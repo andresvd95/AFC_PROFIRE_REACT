@@ -1,4 +1,5 @@
 import ContactForm from './ContactForm'
+import { bgCover } from '../lib/bg'
 
 // Bloque <section class="contact-layout2 pb-0 ..."> común a las 7 páginas de servicio.
 // Fiel a diseno-Ingenieria.html / instalacion.html / etc.
@@ -10,10 +11,10 @@ export default function ServiceContactCTA() {
   ]
 
   return (
-    <section className="contact-layout2 pb-0 bg-overlay bg-overlay-primary-gradient">
-      <div className="bg-img">
-        <img src="/assets/images/banners/2.jpg" alt="" />
-      </div>
+    <section
+      className="contact-layout2 pb-0 bg-overlay bg-overlay-primary-gradient"
+      style={bgCover('/assets/images/banners/2.jpg')}
+    >
       <div className="container">
         <div className="row">
           <div className="col-xl-6">

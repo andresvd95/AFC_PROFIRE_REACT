@@ -33,3 +33,12 @@ test('formulario de asesoría presente', () => {
   setup()
   expect(document.querySelector('form#contactForm')).toBeTruthy()
 })
+
+test('los fondos de sección van como background inline (sin <img> crudo)', () => {
+  setup()
+  const services = document.querySelector('.services-layout2')
+  expect(services).toHaveStyle({ backgroundSize: 'cover' })
+  expect(services.style.backgroundImage).toContain('backgrounds/5.jpg')
+  expect(document.querySelector('.services-layout2 .bg-img')).toBeFalsy()
+  expect(document.querySelector('.contact-layout2 .bg-img')).toBeFalsy()
+})

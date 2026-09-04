@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { bgCover } from '../lib/bg'
 
 /*
  * <section class="page-title ..."> reutilizable. Fiel a los distintos page-title
@@ -33,12 +34,7 @@ export default function PageTitle({
       : `page-title page-title-${variant} bg-overlay bg-overlay-2 bg-parallax`
 
   return (
-    <section className={sectionClass}>
-      {bg && (
-        <div className="bg-img">
-          <img src={bg} alt={bgAlt} />
-        </div>
-      )}
+    <section className={sectionClass} style={bg ? bgCover(bg) : undefined}>
       <div className="container">
         <div className="row">
           <div className={colClass}>

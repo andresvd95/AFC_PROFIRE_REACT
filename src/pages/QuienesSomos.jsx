@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import '../styles/quienes-somos.css'
 import LocalVideo from '../components/LocalVideo'
+import { bgCover } from '../lib/bg'
 import { aboutGallery } from '../data/projects'
 
 const GALLERY_SLICK = JSON.stringify({
@@ -25,10 +26,10 @@ export default function QuienesSomos() {
   return (
     <>
       {/* 1. HERO */}
-      <section className="page-title hero-min bg-overlay bg-overlay-2 bg-parallax">
-        <div className="bg-img">
-          <img src="/assets/images/page-titles/incendio.jpg" alt="AFC Pro Fire - Colombia" />
-        </div>
+      <section
+        className="page-title hero-min bg-overlay bg-overlay-2 bg-parallax"
+        style={bgCover('/assets/images/page-titles/incendio.jpg')}
+      >
         <div className="container">
           <h1 className="pagetitle__heading mb-10">Protección Contra Incendios en Colombia</h1>
           <p className="pagetitle__desc mb-0">

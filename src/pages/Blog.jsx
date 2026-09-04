@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import '../styles/blog-listing.css'
+import { bgCover } from '../lib/bg'
 import { blogList } from '../data/blogPosts'
 
 // Fiel a blog.html: page-title-layout1 + grid de 12 .post-item.
@@ -7,10 +8,10 @@ import { blogList } from '../data/blogPosts'
 export default function Blog() {
   return (
     <>
-      <section className="page-title page-title-layout1 bg-overlay bg-overlay-2 bg-parallax">
-        <div className="bg-img">
-          <img src="/assets/images/page-titles/11.jpg" alt="background" />
-        </div>
+      <section
+        className="page-title page-title-layout1 bg-overlay bg-overlay-2 bg-parallax"
+        style={bgCover('/assets/images/page-titles/11.jpg')}
+      >
         <div className="container">
           <div className="row">
             <div className="col-12">

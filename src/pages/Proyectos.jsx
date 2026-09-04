@@ -1,16 +1,17 @@
 import { Link } from 'react-router-dom'
 import '../styles/proyectos.css'
 import LocalVideo from '../components/LocalVideo'
+import { bgCover } from '../lib/bg'
 import { galleryImages, galleryVideos } from '../data/projects'
 
 export default function Proyectos() {
   return (
     <>
       {/* PAGE TITLE */}
-      <section className="page-title page-title-layout1 bg-overlay bg-overlay-2 bg-parallax">
-        <div className="bg-img">
-          <img src="/assets/images/page-titles/banner-proyectos.png" alt="Proyectos Exitosos" />
-        </div>
+      <section
+        className="page-title page-title-layout1 bg-overlay bg-overlay-2 bg-parallax"
+        style={bgCover('/assets/images/page-titles/banner-proyectos.png')}
+      >
         <div className="container">
           <div className="row">
             <div className="col-12 text-center">
