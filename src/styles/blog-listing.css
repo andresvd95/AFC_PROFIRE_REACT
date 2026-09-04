@@ -42,3 +42,35 @@
   height: auto;
   display: block;
 }
+
+/* Tarjetas de igual altura */
+.post-grid .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.post-grid .row > [class*='col-'] {
+  display: flex;
+}
+
+.post-grid .post-item {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.post-grid .post-item .post__body {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+.post-grid .post-item .post__desc {
+  flex: 1 1 auto;
+}
+
+.post-grid .post-item .btn__custom {
+  margin-top: auto;
+  align-self: flex-start;
+}

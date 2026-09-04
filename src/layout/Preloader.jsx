@@ -11,13 +11,17 @@ export default function Preloader() {
     const el = ref.current
     if (!el) return
     let t
+    const done = () => el.classList.add('preloader--hidden')
     const hide = () => {
-      t = window.setTimeout(() => el.classList.add('preloader--hidden'), 800)
+      t = window.setTimeout(done, 800)
     }
     if (document.readyState === 'complete') hide()
     else window.addEventListener('load', hide, { once: true })
+    // Salvaguarda: no dejarlo bloqueado nunca más de ~3,5 s.
+    const cap = window.setTimeout(done, 3500)
     return () => {
       window.clearTimeout(t)
+      window.clearTimeout(cap)
       window.removeEventListener('load', hide)
     }
   }, [])
