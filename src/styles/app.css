@@ -1,0 +1,6 @@
+/* Overrides globales del proyecto original que no viven en un solo <style> de página. */
+
+/* De transferenciaConocimiento.html — marca de campo inválido en los formularios. */
+.is-invalid {
+  border-color: #dc3545 !important;
+}

@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import '../styles/blog-listing.css'
 import { blogList } from '../data/blogPosts'
 
 // Fiel a blog.html: page-title-layout1 + grid de 12 .post-item.

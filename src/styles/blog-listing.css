@@ -1,0 +1,44 @@
+/* Extraído del <style> de blog.html — tarjetas del listado. */
+
+.post-grid .post-item {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 25px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.post-grid .post__body,
+.post-grid .post__body * {
+  color: #000000 !important;
+}
+
+.post-grid .post__title a {
+  color: #004062 !important;
+}
+
+.post-grid .post__title a:hover {
+  color: #00263a !important;
+}
+
+.post-grid .btn__custom {
+  background-color: #ef7d00 !important;
+  border: none !important;
+  color: #fff !important;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+
+.post-grid .btn__custom:hover {
+  background-color: #d96f00 !important;
+  color: #fff !important;
+}
+
+.post-grid .post__img img {
+  border-radius: 8px 8px 0 0;
+  width: 100%;
+  height: auto;
+  display: block;
+}
