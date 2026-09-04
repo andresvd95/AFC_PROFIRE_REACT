@@ -39,3 +39,13 @@ test('muestra la extensión de cada archivo (PDF/XLSX)', () => {
   const exts = [...document.querySelectorAll('.proveedor-card__ext')].map((e) => e.textContent)
   expect(exts).toEqual(['PDF', 'XLSX', 'PDF'])
 })
+
+test('los PDF muestran miniatura de vista previa; el XLSX un placeholder', () => {
+  setup()
+  const cards = [...document.querySelectorAll('.proveedor-card')]
+  const imgs = cards.map((c) => c.querySelector('.proveedor-card__preview img'))
+  expect(imgs[0]).toHaveAttribute('src', '/assets/docs/previews/gestion-compras.png')
+  expect(imgs[1]).toBeNull()
+  expect(imgs[2]).toHaveAttribute('src', '/assets/docs/previews/actualizacion-datos.png')
+  expect(cards[1].querySelector('.proveedor-card__preview-fallback')).toBeTruthy()
+})

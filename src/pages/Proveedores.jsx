@@ -28,21 +28,31 @@ export default function Proveedores() {
             {proveedorDocs.map((d) => (
               <div key={d.key} className="col-sm-12 col-md-6 col-lg-4">
                 <article className="proveedor-card">
-                  <div className="proveedor-card__icon">
-                    <i className={d.icon}></i>
+                  <div className={`proveedor-card__preview proveedor-card__preview--${d.ext.toLowerCase()}`}>
+                    {d.preview ? (
+                      <img src={d.preview} alt={`Vista previa de ${d.title}`} loading="lazy" />
+                    ) : (
+                      <div className="proveedor-card__preview-fallback">
+                        <i className={d.icon}></i>
+                        <span>Planilla Excel</span>
+                      </div>
+                    )}
+                    <span className="proveedor-card__ext">{d.ext}</span>
                   </div>
-                  <span className="proveedor-card__ext">{d.ext}</span>
-                  <h4 className="proveedor-card__title">{d.title}</h4>
-                  <p className="proveedor-card__desc">{d.desc}</p>
-                  <a
-                    className="btn btn__primary proveedor-card__btn"
-                    href={d.href}
-                    download={d.filename}
-                  >
-                    <i className="icon-download"></i>
-                    <span>Descargar {d.ext}</span>
-                  </a>
-                  <span className="proveedor-card__size">{d.sizeLabel}</span>
+
+                  <div className="proveedor-card__body">
+                    <h4 className="proveedor-card__title">{d.title}</h4>
+                    <p className="proveedor-card__desc">{d.desc}</p>
+                    <a
+                      className="btn btn__primary proveedor-card__btn"
+                      href={d.href}
+                      download={d.filename}
+                    >
+                      <i className="icon-download"></i>
+                      <span>Descargar {d.ext}</span>
+                    </a>
+                    <span className="proveedor-card__size">{d.sizeLabel}</span>
+                  </div>
                 </article>
               </div>
             ))}

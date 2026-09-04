@@ -5,11 +5,12 @@
   align-items: stretch;
 }
 
-/* El .mb-30 dejaba una franja blanca bajo el panel naranja: la quitamos para
-   que el panel naranja llegue hasta abajo (misma altura que el formulario). */
+/* El panel naranja (.contact__panel-info) debe llegar hasta abajo, a la misma
+   altura que el formulario. Sin margin inferior y estirado por el flex. */
 .contact-layout1 .contact__panel-info,
 .contact-layout1 .contact__panel-form {
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
+  align-self: stretch;
 }
 
 .contact-layout1 .contact__panel-info {

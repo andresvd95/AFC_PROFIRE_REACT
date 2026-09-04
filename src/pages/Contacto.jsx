@@ -28,7 +28,7 @@ export default function Contacto() {
           <div className="row">
             <div className="col-12">
               <div className="contact-panel p-0 box-shadow-none">
-                <div className="contact__panel-info mb-30" style={{ backgroundColor: '#ef7d00' }}>
+                <div className="contact__panel-info" style={{ backgroundColor: '#ef7d00' }}>
                   <div className="contact-info-box">
                     <h4 className="contact__info-box-title">Dirección</h4>
                     <ul className="contact__info-list list-unstyled">

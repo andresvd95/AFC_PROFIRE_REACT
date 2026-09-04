@@ -15,10 +15,15 @@
 .proveedores-section .row.proveedores-cards {
   display: flex;
   flex-wrap: wrap;
+  margin-left: -16px;
+  margin-right: -16px;
 }
 
 .proveedores-section .row.proveedores-cards > [class*='col-'] {
   display: flex;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 32px;
 }
 
 .proveedor-card {
@@ -26,13 +31,10 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  position: relative;
   background: #fff;
   border: 1px solid #eef0f2;
   border-radius: 14px;
-  padding: 34px 28px;
-  margin-bottom: 30px;
+  overflow: hidden;
   box-shadow: 0 6px 24px rgba(0, 0, 0, 0.06);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
@@ -42,29 +44,69 @@
   box-shadow: 0 14px 40px rgba(0, 0, 0, 0.12);
 }
 
-.proveedor-card__icon {
-  font-size: 44px;
-  line-height: 1;
-  color: #ef7d00;
-  margin-bottom: 18px;
+/* ---- Vista previa ---- */
+.proveedor-card__preview {
+  position: relative;
+  height: 190px;
+  background: #eef1f4;
+  border-bottom: 1px solid #e6e9ec;
+  overflow: hidden;
+}
+
+.proveedor-card__preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
+}
+
+.proveedor-card__preview-fallback {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: linear-gradient(135deg, #e9f4ee 0%, #dceee4 100%);
+  color: #1d6f43;
+}
+
+.proveedor-card__preview-fallback i {
+  font-size: 46px;
+}
+
+.proveedor-card__preview-fallback span {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
 }
 
 .proveedor-card__ext {
   position: absolute;
-  top: 22px;
-  right: 22px;
+  top: 12px;
+  right: 12px;
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.5px;
-  color: #004062;
-  background: #eaf1f5;
+  color: #fff;
+  background: rgba(0, 64, 98, 0.92);
   border-radius: 6px;
   padding: 4px 10px;
 }
 
+/* ---- Cuerpo ---- */
+.proveedor-card__body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1 1 auto;
+  padding: 26px 24px 28px;
+}
+
 .proveedor-card__title {
   color: #004062;
-  font-size: 19px;
+  font-size: 18px;
   line-height: 1.35;
   margin-bottom: 10px;
 }
@@ -92,7 +134,7 @@
 }
 
 @media (max-width: 767px) {
-  .proveedor-card {
-    padding: 28px 24px;
+  .proveedor-card__body {
+    padding: 22px 20px 24px;
   }
 }

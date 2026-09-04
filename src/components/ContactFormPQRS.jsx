@@ -88,7 +88,7 @@ export default function ContactFormPQRS() {
   return (
     <form
       id="contactFormEmailJS"
-      className="contact__panel-form mb-30"
+      className="contact__panel-form"
       ref={formRef}
       onSubmit={handleSubmit}
       noValidate

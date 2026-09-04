@@ -102,6 +102,17 @@ Extrae de `blog1.html`…`blog12.html` el cuerpo real de cada artículo (incluid
 tablas, SVG, `<details>`, callouts y su `<style>` propio) y de `blog.html` las
 tarjetas del listado (`blogList`). Los slugs y el orden se fijan en el propio script.
 
+## Vistas previas de documentos (Proveedores)
+
+Las miniaturas de la página 1 de los PDF de `/proveedores` viven en
+`public/assets/docs/previews/*.png` (versionadas). Para regenerarlas:
+
+```bash
+npm i -D pdf-to-img
+node scripts/build-doc-previews.mjs
+npm rm pdf-to-img
+```
+
 ## Incidencias heredadas del original (se replican tal cual)
 
 - `assets/images/page-titles/incendio.jpg`, `…/capacitacion.jpg` y
