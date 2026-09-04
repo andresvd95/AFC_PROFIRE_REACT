@@ -6,6 +6,15 @@ export const mainNav = [
   { to: '/proyectos', label: 'Proyectos' },
   { to: '/quienes-somos', label: 'Quienes somos' },
   { to: '/blog', label: 'Blog' },
+  { to: '/proveedores', label: 'Proveedores' },
+  { to: '/contacto', label: 'Contacto' },
+]
+
+// Widget "Páginas" del footer.
+export const footerPages = [
+  { to: '/quienes-somos', label: 'Quienes somos' },
+  { to: '/blog', label: 'Blog' },
+  { to: '/proveedores', label: 'Proveedores' },
   { to: '/contacto', label: 'Contacto' },
 ]
 

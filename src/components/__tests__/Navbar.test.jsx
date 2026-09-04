@@ -5,11 +5,21 @@ import Navbar from '../Navbar'
 
 const setup = (path = '/') => render(<MemoryRouter initialEntries={[path]}><Navbar /></MemoryRouter>)
 
-test('tiene los items principales', () => {
+test('tiene los items principales en orden (Proveedores entre Blog y Contacto)', () => {
   setup()
-  for (const label of ['Inicio', 'Servicios', 'Proyectos', 'Quienes somos', 'Blog', 'Contacto']) {
-    expect(screen.getByRole('link', { name: label })).toBeInTheDocument()
-  }
+  const items = [...document.querySelectorAll('.navbar-nav > .nav__item > .nav__item-link')].map(
+    (a) => a.textContent
+  )
+  expect(items).toEqual([
+    'Inicio',
+    'Servicios',
+    'Proyectos',
+    'Quienes somos',
+    'Blog',
+    'Proveedores',
+    'Contacto',
+  ])
+  expect(screen.getByRole('link', { name: 'Proveedores' })).toHaveAttribute('href', '/proveedores')
 })
 
 test('dropdown de servicios: 6 enlaces con rutas /servicios/*', () => {

@@ -6,7 +6,7 @@ import { AppRoutes } from '../App'
 const at = (path) => render(<MemoryRouter initialEntries={[path]}><AppRoutes /></MemoryRouter>)
 
 test('cada ruta monta dentro del Layout (chrome único)', () => {
-  for (const path of ['/', '/servicios', '/servicios/instalacion', '/proyectos', '/quienes-somos', '/contacto', '/blog', '/blog/triangulo-del-fuego']) {
+  for (const path of ['/', '/servicios', '/servicios/instalacion', '/proyectos', '/quienes-somos', '/contacto', '/proveedores', '/blog', '/blog/triangulo-del-fuego']) {
     const { unmount } = at(path)
     expect(document.querySelectorAll('header.header')).toHaveLength(1)
     expect(document.querySelectorAll('footer.footer')).toHaveLength(1)

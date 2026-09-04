@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { footerServices } from '../data/navLinks'
+import { footerServices, footerPages } from '../data/navLinks'
 
 // Fiel a <footer class="footer"> de index.html (incluye el sub-widget "Documentos").
 export default function Footer() {
@@ -38,15 +38,11 @@ export default function Footer() {
               <div className="footer-widget-content">
                 <nav>
                   <ul className="list-unstyled">
-                    <li>
-                      <Link to="/quienes-somos">Quienes somos</Link>
-                    </li>
-                    <li>
-                      <Link to="/blog">Blog</Link>
-                    </li>
-                    <li>
-                      <Link to="/contacto">Contacto</Link>
-                    </li>
+                    {footerPages.map((p) => (
+                      <li key={p.to}>
+                        <Link to={p.to}>{p.label}</Link>
+                      </li>
+                    ))}
                   </ul>
                 </nav>
               </div>

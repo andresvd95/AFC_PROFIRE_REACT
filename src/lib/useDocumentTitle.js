@@ -6,6 +6,7 @@ const FIXED = {
   '/proyectos': 'AFC PRO FIRE - Galería de Proyectos',
   '/quienes-somos': 'AFC Professional Fire | Colombia',
   '/contacto': 'AFC PRO FIRE - CONTACTO',
+  '/proveedores': 'AFC PRO FIRE - Proveedores',
   '/blog': 'AFC PRO FIRE - BLOG',
 }
 

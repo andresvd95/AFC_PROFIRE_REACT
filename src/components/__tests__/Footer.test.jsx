@@ -22,6 +22,7 @@ test('widgets y enlaces clave', () => {
 test('enlaces internos usan rutas React', () => {
   setup()
   expect(screen.getByRole('link', { name: 'Quienes somos' })).toHaveAttribute('href', '/quienes-somos')
+  expect(screen.getByRole('link', { name: 'Proveedores' })).toHaveAttribute('href', '/proveedores')
   expect(screen.getByRole('link', { name: 'Diseño e Ingeniería de Sistemas Contra Incendios' })).toHaveAttribute(
     'href',
     '/servicios/diseno-ingenieria'

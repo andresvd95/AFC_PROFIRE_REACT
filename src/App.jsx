@@ -7,6 +7,7 @@ import ServiceDetail from './pages/ServiceDetail'
 import Proyectos from './pages/Proyectos'
 import QuienesSomos from './pages/QuienesSomos'
 import Contacto from './pages/Contacto'
+import Proveedores from './pages/Proveedores'
 import Blog from './pages/Blog'
 import BlogPost from './pages/BlogPost'
 import NotFound from './pages/NotFound'
@@ -22,6 +23,7 @@ export function AppRoutes() {
         <Route path="proyectos" element={<Proyectos />} />
         <Route path="quienes-somos" element={<QuienesSomos />} />
         <Route path="contacto" element={<Contacto />} />
+        <Route path="proveedores" element={<Proveedores />} />
         <Route path="blog" element={<Blog />} />
         <Route path="blog/:slug" element={<BlogPost />} />
         <Route path="*" element={<NotFound />} />
