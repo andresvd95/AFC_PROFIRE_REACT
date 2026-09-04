@@ -1,0 +1,51 @@
+/* Ajustes de espaciado del bloque de contacto (contacto.html no traía <style>). */
+
+.contact-layout1 .contact-panel {
+  padding: 0;
+}
+
+.contact-layout1 .contact__panel-info {
+  padding: 44px 40px;
+}
+
+.contact-layout1 .contact__panel-form {
+  padding: 44px 40px;
+}
+
+.contact-layout1 .contact__panel-form .row {
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.contact-layout1 .contact__panel-form .row > [class*='col-'] {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.contact-layout1 .contact__panel-form .contact__panel-title {
+  margin-bottom: 26px;
+}
+
+.contact-layout1 .contact__panel-form .form-group {
+  margin-bottom: 22px;
+}
+
+.contact-layout1 .contact__panel-form textarea.form-control {
+  min-height: 130px;
+  resize: vertical;
+}
+
+.contact-layout1 .contact__panel-form #contactSubmitBtn {
+  margin-top: 6px;
+}
+
+.contact-layout1 .contact__panel-form .contact-result {
+  margin-top: 14px;
+}
+
+@media (max-width: 575px) {
+  .contact-layout1 .contact__panel-info,
+  .contact-layout1 .contact__panel-form {
+    padding: 26px 22px;
+  }
+}

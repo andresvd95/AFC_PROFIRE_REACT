@@ -25,3 +25,10 @@ test('formulario PQRS presente', () => {
   expect(screen.getByPlaceholderText('Mensaje')).toBeInTheDocument()
   expect(screen.getByRole('combobox')).toBeInTheDocument()
 })
+
+test('el bloque de contacto mantiene sus contenedores de estilo', () => {
+  setup()
+  expect(document.querySelector('.contact-layout1 .contact-panel')).toBeTruthy()
+  expect(document.querySelector('.contact-layout1 .contact__panel-info')).toBeTruthy()
+  expect(document.querySelector('.contact-layout1 .contact__panel-form')).toBeTruthy()
+})

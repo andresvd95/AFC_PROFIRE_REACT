@@ -1,3 +1,4 @@
+import '../styles/contacto.css'
 import ContactFormPQRS from '../components/ContactFormPQRS'
 
 const MAP_SRC =
