@@ -1,0 +1,40 @@
+(function () {
+      emailjs.init("yPAstTbHDQ-GCT7Lm"); // Public Key
+    })();
+
+    document.addEventListener('DOMContentLoaded', function () {
+      const form = document.getElementById('contactForm');
+      const result = form.querySelector('.contact-result');
+      const submitBtn = document.getElementById('contactSubmitBtn') || form.querySelector('button[type="submit"]');
+
+      function isValidEmail(email) { return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(String(email).toLowerCase()); }
+
+      form.addEventListener('input', e => { if (e.target.matches('[required]')) e.target.classList.remove('is-invalid'); });
+
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        result.innerHTML = '';
+
+        // Validación sencilla
+        const required = form.querySelectorAll('input[required], textarea[required], select[required]');
+        let empty = false;
+        required.forEach(el => { if (!el.value || el.value.trim() === '') { el.classList.add('is-invalid'); empty = true; } });
+        if (empty) { result.innerHTML = '<div class="alert alert-danger">Por favor completa todos los campos obligatorios.</div>'; return; }
+
+        const emailInput = document.getElementById('contact-email');
+        if (emailInput && !isValidEmail(emailInput.value.trim())) {
+          emailInput.classList.add('is-invalid');
+          result.innerHTML = '<div class="alert alert-danger">El correo no es válido.</div>';
+          return;
+        }
+
+        const original = submitBtn ? submitBtn.innerHTML : '';
+        if (submitBtn) { submitBtn.disabled = true; submitBtn.innerHTML = '<span>Enviando…</span>'; }
+
+        // Envío con EmailJS (ajusta TEMPLATE si corresponde)
+        emailjs.sendForm('service_433wpss', 'template_l61hkol', form)
+          .then(() => { result.innerHTML = '<div class="alert alert-success">✅ ¡Gracias! Tu mensaje fue enviado correctamente.</div>'; form.reset(); })
+          .catch(err => { console.error(err); result.innerHTML = '<div class="alert alert-danger">❌ No se pudo enviar. Intenta más tarde.</div>'; })
+          .finally(() => { if (submitBtn) { submitBtn.disabled = false; submitBtn.innerHTML = original; } });
+      });
+    });

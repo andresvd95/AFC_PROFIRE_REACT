@@ -1,0 +1,98 @@
+(function () {
+      var v = document.getElementById('heroVideo');
+      if (!v) return;
+
+      function ensure() {
+        v.muted = true; v.setAttribute('muted', '');
+        v.playsInline = true; v.setAttribute('playsinline', '');
+        v.setAttribute('webkit-playsinline', '');
+        v.setAttribute('x5-playsinline', '');
+        v.autoplay = true; v.loop = true;
+      }
+      function tryPlay() { ensure(); v.play().catch(function () { }); }
+
+      if (document.readyState === 'complete') tryPlay();
+      else window.addEventListener('load', tryPlay, { once: true });
+
+      function once() { tryPlay(); document.removeEventListener('click', once); document.removeEventListener('touchstart', once); }
+      document.addEventListener('click', once, { once: true });
+      document.addEventListener('touchstart', once, { once: true });
+
+      v.addEventListener('playing', function () { v.removeAttribute('poster'); }, { once: true });
+    })();
+
+/* ---- */
+
+(function () {
+      // Inicializa EmailJS con tu Public Key
+      emailjs.init("yPAstTbHDQ-GCT7Lm");
+    })();
+
+    document.addEventListener('DOMContentLoaded', function () {
+      const form = document.getElementById('contactForm');
+      const result = form.querySelector('.contact-result');
+      const submitBtn = form.querySelector('button[type="submit"]');
+
+      // Helper: email válido
+      function isValidEmail(email) {
+        return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(String(email).toLowerCase());
+      }
+
+      // Limpia estilos de error al escribir
+      form.addEventListener('input', function (e) {
+        if (e.target.matches('[required]')) {
+          e.target.classList.remove('is-invalid');
+        }
+      });
+
+      form.addEventListener('submit', function (event) {
+        event.preventDefault();
+        result.innerHTML = '';
+
+        // 1) Verifica campos requeridos del formulario
+        const requiredFields = form.querySelectorAll('input[required], textarea[required], select[required]');
+        let hasEmpty = false;
+        requiredFields.forEach(el => {
+          if (!el.value || el.value.trim() === '') {
+            el.classList.add('is-invalid'); // puedes estilizar .is-invalid en tu CSS
+            hasEmpty = true;
+          }
+        });
+
+        if (hasEmpty) {
+          result.innerHTML = '<div class="alert alert-danger">Por favor completa todos los campos obligatorios.</div>';
+          return;
+        }
+
+        // 2) Valida correo
+        const emailInput = form.querySelector('#contact-email');
+        if (emailInput && !isValidEmail(emailInput.value.trim())) {
+          emailInput.classList.add('is-invalid');
+          result.innerHTML = '<div class="alert alert-danger">El correo no es válido.</div>';
+          return;
+        }
+
+        // 3) Deshabilita botón (evita doble envío)
+        const originalBtnHTML = submitBtn ? submitBtn.innerHTML : '';
+        if (submitBtn) {
+          submitBtn.disabled = true;
+          submitBtn.innerHTML = '<span>Enviando…</span>';
+        }
+
+        // 4) Envía con EmailJS
+        emailjs.sendForm('service_433wpss', 'template_l61hkol', form)
+          .then(function () {
+            result.innerHTML = '<div class="alert alert-success">✅ ¡Gracias! Tu mensaje fue enviado correctamente.</div>';
+            form.reset();
+          })
+          .catch(function (error) {
+            result.innerHTML = '<div class="alert alert-danger">❌ Error al enviar: ' + (error?.text || 'Intenta más tarde') + '</div>';
+          })
+          .finally(function () {
+            if (submitBtn) {
+              submitBtn.disabled = false;
+              submitBtn.innerHTML = originalBtnHTML;
+            }
+          });
+      });
+    });
