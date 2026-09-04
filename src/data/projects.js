@@ -24,11 +24,23 @@ export const galleryImages = [
   { src: `${PR}WhatsApp Image 2026-04-28 at 12.36.36.jpeg`, alt: 'Proyecto' },
   { src: `${PR}WhatsApp Image 2026-04-28 at 12.39.03.jpeg`, alt: 'Proyecto' },
   { src: `${PR}WhatsApp Image 2026-04-29 at 08.26.12.jpeg`, alt: 'Proyecto' },
+  // ---- Fotos nuevas (rvpendientesafc, ago 2026) ----
+  { src: `${PR}rvp-01.jpeg`, alt: 'Proyecto' },
+  { src: `${PR}rvp-02.jpeg`, alt: 'Proyecto' },
+  { src: `${PR}rvp-03.jpeg`, alt: 'Proyecto' },
+  { src: `${PR}rvp-04.jpeg`, alt: 'Proyecto' },
+  { src: `${PR}rvp-05.jpeg`, alt: 'Proyecto' },
+  { src: `${PR}rvp-06.jpeg`, alt: 'Proyecto' },
+  { src: `${PR}rvp-07.jpeg`, alt: 'Proyecto' },
+  { src: `${PR}rvp-08.jpeg`, alt: 'Proyecto' },
 ]
 
 export const galleryVideos = [
   `${PR}WhatsApp Video 2026-04-28 at 12.33.51.mp4`,
   `${PR}WhatsApp Video 2026-04-28 at 12.34.59.mp4`,
+  // ---- Vídeos nuevos (rvpendientesafc, ago 2026) ----
+  `${PR}rvp-video-01.mp4`,
+  `${PR}rvp-video-02.mp4`,
 ]
 
 // Galería reducida usada en el carrusel de quienes-somos.html (10 imágenes).

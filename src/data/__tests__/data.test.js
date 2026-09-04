@@ -34,11 +34,14 @@ test('servicesDetail: 7 registros con title/metaTitle/blocks', () => {
   expect(serviceSlugs).toContain('conceptualizacion')
 })
 
-test('projects: 19 imágenes + 2 vídeos en el orden del original', () => {
-  expect(galleryImages).toHaveLength(19)
-  expect(galleryVideos).toHaveLength(2)
+test('projects: 27 imágenes + 4 vídeos (originales + nuevas de agosto 2026)', () => {
+  expect(galleryImages).toHaveLength(27)
+  expect(galleryVideos).toHaveLength(4)
   expect(aboutGallery).toHaveLength(10)
   expect(galleryImages[0].src).toContain('instalacion-1.png')
   expect(galleryImages[10].src).toContain('WhatsApp Image 2026-04-27 at 10.08.52.jpeg')
   expect(encodeURI(galleryImages[10].src)).toContain('%20')
+  // fotos y vídeos nuevos
+  expect(galleryImages.filter((i) => i.src.includes('/rvp-')).length).toBe(8)
+  expect(galleryVideos.filter((v) => v.includes('/rvp-video-')).length).toBe(2)
 })

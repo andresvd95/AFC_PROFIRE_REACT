@@ -18,12 +18,12 @@ test('título, breadcrumb y scroll-down', () => {
   expect(document.querySelector('.page-title-layout1 .bg-img')).toBeFalsy()
 })
 
-test('19 imágenes con lightbox y 2 vídeos', () => {
+test('27 imágenes con lightbox y 4 vídeos', () => {
   setup()
   const links = document.querySelectorAll('#gallery a.popup-gallery-item')
-  expect(links).toHaveLength(19)
+  expect(links).toHaveLength(27)
   expect(links[0].getAttribute('href')).toContain('instalacion-1.png')
   // nombres con espacios codificados
   expect(links[10].getAttribute('href')).toContain('%20')
-  expect(document.querySelectorAll('#gallery .video-wrapper')).toHaveLength(2)
+  expect(document.querySelectorAll('#gallery .video-wrapper')).toHaveLength(4)
 })
