@@ -1,262 +1,287 @@
+// GENERADO por scripts/build-blog-data.mjs a partir de ../afcprofire/blog1..12.html + blog.html
+// No editar a mano: re-generar con `node scripts/build-blog-data.mjs`.
+
 export const blogPosts = [
   {
-    id: 'blog11',
-    date: 'Feb 1, 2026',
-    image: 'blog10.png',
-    categories: ['Prevención', 'Incendios'],
-    title: 'Guía Fundamental: ¿Quién es quién en los Códigos y Normas de Alarmas de Incendio?',
-    excerpt: 'Diseñar o instalar un sistema de alarma no es solo un engranaje...',
-    content: `
-      <p>Diseñar o instalar un sistema de alarma contra incendios no es solo elegir equipos y colocarlos. Detrás de cada instalación existe un ecosistema de normas, códigos y organizaciones que definen cómo deben ser diseñados, instalados, probados y mantenidos estos sistemas.</p>
-      <h2>¿Por qué importan los códigos?</h2>
-      <p>Los códigos y normas de alarma contra incendios existen para garantizar que los sistemas funcionen correctamente cuando más se necesitan. Un sistema mal diseñado o instalado puede fallar en el momento crítico, con consecuencias devastadoras.</p>
-      <h2>NFPA 72: La norma principal</h2>
-      <p>La NFPA 72 (National Fire Alarm and Signaling Code) es la norma de referencia internacional para sistemas de detección y alarma de incendios. Define los requisitos mínimos para diseño, instalación, pruebas, inspección y mantenimiento.</p>
-      <h2>Otros estándares relevantes</h2>
-      <ul>
-        <li><strong>NFPA 101:</strong> Código de Seguridad Humana - define requisitos de evacuación.</li>
-        <li><strong>NFPA 13:</strong> Instalación de sistemas de rociadores.</li>
-        <li><strong>IEC 62443:</strong> Seguridad en sistemas industriales automatizados.</li>
-        <li><strong>Normativa colombiana:</strong> NSR-10 y resoluciones del INVIMA y entidades locales.</li>
-      </ul>
-      <h2>¿Qué organismo regula en Colombia?</h2>
-      <p>En Colombia, las instalaciones de protección contra incendios deben cumplir con la Norma Sismo Resistente (NSR-10) y las disposiciones del Ministerio de Trabajo en materia de seguridad y salud en el trabajo.</p>
-    `,
+    "slug": "incendios-en-hospitales",
+    "source": "blog12.html",
+    "metaTitle": "BLOG AFC PRO FIRE — Incendios en Hospitales: El Riesgo Invisible",
+    "description": "Conozca los riesgos críticos de incendio en hospitales, las zonas más vulnerables y por qué la protección contra incendios en el sector salud exige soluciones especializadas.",
+    "title": "Incendios en Hospitales: El Riesgo Invisible",
+    "date": "Feb 17, 2026",
+    "dateTime": "2026-02-17",
+    "image": "/assets/images/blog/grid/hospital.png",
+    "categories": [
+      "Ingeniería",
+      "Sector Salud"
+    ],
+    "styleCss": ".blog-single .container {\r\n      max-width: 900px\r\n    }\r\n\r\n    .blog-single .post__body,\r\n    .blog-single .post__body * {\r\n      color: #004062 !important\r\n    }\r\n\r\n    .post__meta *,\r\n    .post__title {\r\n      color: #004062 !important\r\n    }\r\n\r\n    .only-info .to-remove,\r\n    .only-info .blog-share,\r\n    .only-info .blog-tags,\r\n    .only-info aside,\r\n    .only-info .page-title,\r\n    .only-info .breadcrumb {\r\n      display: none !important\r\n    }\r\n\r\n    .post__body p {\r\n      margin-bottom: 1rem;\r\n      line-height: 1.7\r\n    }\r\n\r\n    .post__img {\r\n      width: 100%;\r\n      min-height: 320px;\r\n      background: #eef6fb;\r\n      border-radius: 8px;\r\n      overflow: hidden\r\n    }\r\n\r\n    .post__img img {\r\n      width: 100%;\r\n      height: auto;\r\n      display: block;\r\n      border-radius: 8px\r\n    }\r\n\r\n    .post__desc h2 {\r\n      margin-top: 1.2rem;\r\n      font-size: 1.35rem\r\n    }\r\n\r\n    .post__desc ul {\r\n      padding-left: 1.1rem\r\n    }\r\n\r\n    .post__desc li {\r\n      margin-bottom: .5rem\r\n    }\r\n\r\n    details {\r\n      border: 1px solid #cfe1ee;\r\n      border-radius: 10px;\r\n      padding: 12px 14px;\r\n      margin: .6rem 0 1rem;\r\n      background: #eef6fb\r\n    }\r\n\r\n    details summary {\r\n      cursor: pointer;\r\n      font-weight: 700;\r\n      list-style: none\r\n    }\r\n\r\n    details[open] summary {\r\n      margin-bottom: .6rem\r\n    }",
+    "bodyHtml": "<h1 class=\"post__title\" itemprop=\"headline\">\r\n                    Incendios en Hospitales: El Riesgo Invisible\r\n                  </h1>\r\n\r\n                  <div class=\"post__desc\" itemprop=\"articleBody\">\r\n\r\n                    <p>\r\n                      Un hospital es uno de los pocos edificios donde la evacuación total no siempre es la primera\r\n                      opción.\r\n                      En áreas como la UCI o los Quirófanos, los pacientes dependen de soporte vital, lo que obliga a\r\n                      estrategias de <strong>\"defensa in situ\"</strong> o <strong>evacuaciones horizontales</strong>\r\n                      (mover a los pacientes a otra ala del mismo piso protegida por muros cortafuego).\r\n                    </p>\r\n\r\n                    <h2>📉 Casos Recientes en Colombia (2025-2026)</h2>\r\n\r\n                    <p>\r\n                      En los últimos años, varios incidentes han encendido las alarmas sobre la infraestructura\r\n                      hospitalaria en el país:\r\n                    </p>\r\n\r\n                    <p>\r\n                      <strong>Clínica Fundadores, Medellín (Julio 2025):</strong> Un incendio de grandes proporciones se\r\n                      originó en el séptimo piso (área de hospitalización). La emergencia fue crítica porque el humo\r\n                      afectó la UCI, donde había 18 pacientes conectados a ventilación mecánica. Debido al fallo\r\n                      eléctrico\r\n                      provocado por las llamas, el personal médico tuvo que realizar asistencia manual (ambú) para\r\n                      mantener con vida a los pacientes críticos durante la evacuación.\r\n                    </p>\r\n\r\n                    <h2>🚨 Mapa de Riesgos: ¿Dónde está el peligro?</h2>\r\n\r\n                    <ul>\r\n                      <li>\r\n                        <strong>UCI y Quirófanos:</strong> El riesgo es la atmósfera rica en oxígeno, que convierte\r\n                        cualquier chispa en un incendio voraz, sumado a la imposibilidad de evacuar rápidamente a\r\n                        pacientes críticos.\r\n                      </li>\r\n                      <li>\r\n                        <strong>Laboratorios:</strong> Alta carga de insumos químicos e inflamables que requieren\r\n                        agentes\r\n                        de extinción específicos (no agua) para evitar reacciones peligrosas.\r\n                      </li>\r\n                      <li>\r\n                        <strong>Sótanos y Centrales de Gases:</strong> Concentración de cilindros a alta presión; un\r\n                        incendio aquí puede derivar en explosiones mecánicas por falla de válvulas.\r\n                      </li>\r\n                      <li>\r\n                        <strong>Áreas Tecnológicas (Data Centers/Imagenología):</strong> El riesgo es el daño por agua.\r\n                        Se requieren agentes limpios que apaguen el fuego sin arruinar equipos de millones de dólares.\r\n                      </li>\r\n                    </ul>\r\n\r\n                    <h2>🛡️ AFC: Seguridad que Cosecha Futuro</h2>\r\n\r\n                    <p>\r\n                      En el sector salud, la improvisación cuesta vidas. AFC brinda soluciones integrales que no solo\r\n                      cumplen la norma, sino que garantizan la continuidad de la operación médica.\r\n                    </p>\r\n\r\n                    <hr>\r\n\r\n                    <details>\r\n                      <summary>¿Por qué un hospital no se evacúa igual que un edificio normal?</summary>\r\n                      <p>\r\n                        Porque hay pacientes que dependen de equipos médicos, soporte vital y condiciones controladas.\r\n                        En muchos casos, moverlos de inmediato representa un riesgo mayor, por lo que se deben aplicar\r\n                        estrategias de protección por sectores y evacuación progresiva.\r\n                      </p>\r\n                    </details>\r\n\r\n                    <details>\r\n                      <summary>¿Qué áreas requieren una protección más especializada?</summary>\r\n                      <p>\r\n                        Principalmente la UCI, quirófanos, laboratorios, centrales de gases y áreas tecnológicas, ya que\r\n                        concentran pacientes vulnerables, oxígeno, químicos peligrosos o equipos de alto valor que\r\n                        exigen\r\n                        sistemas de protección específicos.\r\n                      </p>\r\n                    </details>\r\n\r\n                  </div>"
   },
   {
-    id: 'blog10',
-    date: 'Ene 17, 2026',
-    image: 'barIncendio.png',
-    categories: ['Prevención', 'Incendios'],
-    title: 'Tragedia en los Alpes: Lecciones de Seguridad',
-    excerpt: 'El pasado 1 de enero de 2026, lo que debía ser una celebración de Año Nuevo en el bar Le Constellation (Suiza)...',
-    content: `
-      <p>El pasado 1 de enero de 2026, lo que debía ser una celebración de Año Nuevo en el bar Le Constellation en Suiza se convirtió en una tragedia cuando un incendio devastó el establecimiento, dejando múltiples víctimas.</p>
-      <h2>¿Qué lecciones nos deja este evento?</h2>
-      <p>Eventos como este nos recuerdan la importancia crítica de contar con sistemas de protección contra incendios correctamente instalados y mantenidos en establecimientos de alta ocupación.</p>
-      <h2>Factores de riesgo en bares y restaurantes</h2>
-      <ul>
-        <li>Alta densidad de personas en espacios reducidos.</li>
-        <li>Presencia de materiales combustibles (madera, telas, decoración).</li>
-        <li>Equipos de cocina y sistemas eléctricos con alta carga.</li>
-        <li>Ruido ambiental que puede enmascarar alarmas tempranas.</li>
-      </ul>
-      <h2>Medidas de prevención esenciales</h2>
-      <p>Detectores de humo y calor en todas las áreas, sistema de rociadores, rutas de evacuación claramente señalizadas y personal capacitado en respuesta a emergencias son la base de cualquier plan de seguridad efectivo.</p>
-    `,
+    "slug": "codigos-y-normas-de-alarmas",
+    "source": "blog11.html",
+    "metaTitle": "BLOG AFC PRO FIRE — Guía Fundamental: ¿Quién es quién en los Códigos y Normas de Alarmas de Incendio?",
+    "description": "Entienda la jerarquía normativa de las alarmas de incendio: Diferencias entre NFPA 72, NFPA 70, NFPA 101 y NFPA 1. Diseño, instalación y cumplimiento legal.",
+    "title": "Guía Fundamental: ¿Quién es quién en los Códigos y Normas de Alarmas de Incendio?",
+    "date": "Feb 1, 2026",
+    "dateTime": "2026-02-1",
+    "image": "/assets/images/blog/grid/blog10.png",
+    "categories": [
+      "Ingeniería",
+      "Normatividad"
+    ],
+    "styleCss": ".blog-single .container {\r\n      max-width: 900px\r\n    }\r\n\r\n    .blog-single .post__body,\r\n    .blog-single .post__body * {\r\n      color: #004062 !important\r\n    }\r\n\r\n    .post__meta *,\r\n    .post__title {\r\n      color: #004062 !important\r\n    }\r\n\r\n    .only-info .to-remove,\r\n    .only-info .blog-share,\r\n    .only-info .blog-tags,\r\n    .only-info aside,\r\n    .only-info .page-title,\r\n    .only-info .breadcrumb {\r\n      display: none !important\r\n    }\r\n\r\n    .post__body p {\r\n      margin-bottom: 1rem;\r\n      line-height: 1.7\r\n    }\r\n\r\n    .post__img {\r\n      width: 100%;\r\n      min-height: 320px;\r\n      background: #eef6fb;\r\n      border-radius: 8px;\r\n      overflow: hidden\r\n    }\r\n\r\n    .post__img img {\r\n      width: 100%;\r\n      height: auto;\r\n      display: block;\r\n      border-radius: 8px\r\n    }\r\n\r\n    .post__desc h2 {\r\n      margin-top: 1.2rem;\r\n      font-size: 1.35rem\r\n    }\r\n\r\n    .post__desc ul {\r\n      padding-left: 1.1rem\r\n    }\r\n\r\n    .post__desc li {\r\n      margin-bottom: .5rem\r\n    }\r\n\r\n    details {\r\n      border: 1px solid #cfe1ee;\r\n      border-radius: 10px;\r\n      padding: 12px 14px;\r\n      margin: .6rem 0 1rem;\r\n      background: #eef6fb\r\n    }\r\n\r\n    details summary {\r\n      cursor: pointer;\r\n      font-weight: 700;\r\n      list-style: none\r\n    }\r\n\r\n    details[open] summary {\r\n      margin-bottom: .6rem\r\n    }",
+    "bodyHtml": "<h1 class=\"post__title\" itemprop=\"headline\">\r\n                    Guía Fundamental: ¿Quién es quién en los Códigos y Normas de Alarmas de Incendio?\r\n                  </h1>\r\n\r\n                  <div class=\"post__desc\" itemprop=\"articleBody\">\r\n                    <p>\r\n                      Diseñar o instalar un sistema de alarma no es solo poner detectores; es entender un engranaje de\r\n                      leyes y normas que dictan desde <strong>cuándo</strong> es obligatorio el sistema hasta\r\n                      <strong>cómo</strong> debe conectarse cada cable. Basado en la guía de Shawn Mahoney (NFPA), aquí\r\n                      te explicamos los pilares normativos:\r\n                    </p>\r\n\r\n                    <h2>1. NFPA 72: El \"Cómo\" del Diseño</h2>\r\n                    <p>\r\n                      Es la norma principal de diseño. <strong>NFPA 72</strong> te dice cómo deben funcionar los\r\n                      dispositivos y dónde ubicarlos.\r\n                    </p>\r\n                    <p>\r\n                      <strong>Dato clave:</strong> Esta norma <em>no</em> te obliga a instalar una alarma; eso lo\r\n                      deciden otros códigos. Su función es asegurar que, si instalas una, los dispositivos de iniciación\r\n                      y notificación operen correctamente y reciban el mantenimiento adecuado.\r\n                    </p>\r\n\r\n                    <h2>2. NFPA 70 (NEC): La Instalación Eléctrica</h2>\r\n                    <p>\r\n                      Mientras la NFPA 72 define el diseño, el <strong>Código Eléctrico Nacional (NEC)</strong>\r\n                      —específicamente su <strong>Artículo 760</strong>— dicta cómo debe ser la instalación física.\r\n                    </p>\r\n                    <p>\r\n                      <strong>En la práctica:</strong> El diseñador usa la NFPA 72 y el electricista aplica la NFPA 70\r\n                      para elegir el tipo de cable, las uniones, la fijación y la protección contra incendios del\r\n                      cableado.\r\n                    </p>\r\n\r\n                    <h2>3. NFPA 101 y NFPA 1: El \"Cuándo\" y el \"Dónde\"</h2>\r\n                    <p>Estos son los códigos que <strong>exigen</strong> la presencia de una alarma según el uso del\r\n                      edificio (Ocupación):</p>\r\n\r\n                    <ul>\r\n                      <li><strong>NFPA 101 (Código de Seguridad Humana):</strong> Se enfoca en la protección de las\r\n                        personas. Define si necesitas alarma dependiendo del número de ocupantes, el tamaño del edificio\r\n                        y su uso (ej. hospitales, centros comerciales).</li>\r\n                      <li><strong>NFPA 1 (Código de Incendios):</strong> Establece los requisitos mínimos de protección\r\n                        frente a peligros de explosión e incendio, extrayendo disposiciones tanto de la NFPA 72 como de\r\n                        la 101.</li>\r\n                    </ul>\r\n\r\n                    <p>\r\n                      <em>\"Entender la jerarquía de estas normas es la diferencia entre un sistema que cumple el papel y\r\n                        un sistema que realmente salva vidas. En AFC PRO FIRE, diseñamos bajo NFPA 72 e instalamos bajo\r\n                        NFPA 70 para asegurar el cumplimiento total de su proyecto.\"</em>\r\n                    </p>\r\n\r\n                    <hr>\r\n\r\n                    <details>\r\n                      <summary>¿Qué norma me dice cuántos detectores debo poner?</summary>\r\n                      <p>\r\n                        La <strong>NFPA 72</strong> proporciona las pautas sobre la cobertura, espaciamiento y ubicación\r\n                        técnica de los detectores según el diseño del área.\r\n                      </p>\r\n                    </details>\r\n\r\n                    <details>\r\n                      <summary>¿Si cumplo con NFPA 72 ya estoy cumpliendo con la ley?</summary>\r\n                      <p>\r\n                        No necesariamente. Debes verificar con los códigos <strong>NFPA 101</strong> o las leyes locales\r\n                        de construcción si tu edificio requiere obligatoriamente el sistema y bajo qué condiciones de\r\n                        ocupación.\r\n                      </p>\r\n                    </details>\r\n\r\n                  </div>"
   },
   {
-    id: 'blog9',
-    date: 'Ene 08, 2026',
-    image: 'proteccionEdificios.png',
-    categories: ['Prevención', 'Incendios'],
-    title: '¿Tu edificio está protegido realmente? La importancia del mantenimiento de redes contra incendios',
-    excerpt: 'Tener hidrantes y rociadores no basta: sin mantenimiento hay falsa seguridad, riesgo legal...',
-    content: `
-      <p>Tener instalados hidrantes, rociadores o detectores de humo no garantiza la seguridad. Sin un programa de mantenimiento preventivo y correctivo, estos sistemas pueden fallar precisamente cuando más se necesitan.</p>
-      <h2>El problema de la falsa seguridad</h2>
-      <p>Muchas organizaciones invierten en instalar sistemas de protección contra incendios y luego los olvidan. Con el tiempo, los equipos se deterioran, las válvulas se obstruyen, las baterías de los detectores se agotan y los rociadores pierden presión.</p>
-      <h2>Consecuencias del mantenimiento deficiente</h2>
-      <ul>
-        <li>Sistemas que no responden ante una emergencia real.</li>
-        <li>Sanciones legales por incumplimiento normativo.</li>
-        <li>Aumento del riesgo de pérdidas humanas y materiales.</li>
-        <li>Invalidación de pólizas de seguro.</li>
-      </ul>
-      <h2>¿Con qué frecuencia se debe hacer mantenimiento?</h2>
-      <p>Según NFPA 25 (para sistemas de agua) y NFPA 72 (para alarmas), se deben realizar inspecciones mensuales, trimestrales y anuales según el tipo de equipo y sistema.</p>
-    `,
+    "slug": "tragedia-en-los-alpes",
+    "source": "blog10.html",
+    "metaTitle": "BLOG AFC PRO FIRE — Tragedia en los Alpes: Lecciones de Seguridad Humana tras el incendio en Crans-Montana",
+    "description": "Análisis técnico de la tragedia en el bar Le Constellation (Suiza). Lecciones sobre pirotecnia, materiales de acabado y normativas NFPA en seguridad humana.",
+    "title": "Tragedia en los Alpes: Lecciones de Seguridad Humana tras el incendio en Crans-Montana",
+    "date": "Ene 17, 2026",
+    "dateTime": "2026-01-17",
+    "image": "/assets/images/blog/grid/barIncendio.png",
+    "categories": [
+      "Seguridad Humana",
+      "Análisis de Riesgos"
+    ],
+    "styleCss": ".blog-single .container {\r\n      max-width: 900px\r\n    }\r\n\r\n    .blog-single .post__body,\r\n    .blog-single .post__body * {\r\n      color: #004062 !important\r\n    }\r\n\r\n    .post__meta *,\r\n    .post__title {\r\n      color: #004062 !important\r\n    }\r\n\r\n    .only-info .to-remove,\r\n    .only-info .blog-share,\r\n    .only-info .blog-tags,\r\n    .only-info aside,\r\n    .only-info .page-title,\r\n    .only-info .breadcrumb {\r\n      display: none !important\r\n    }\r\n\r\n    .post__body p {\r\n      margin-bottom: 1rem;\r\n      line-height: 1.7\r\n    }\r\n\r\n    .post__img {\r\n      width: 100%;\r\n      min-height: 320px;\r\n      background: #eef6fb;\r\n      border-radius: 8px;\r\n      overflow: hidden\r\n    }\r\n\r\n    .post__img img {\r\n      width: 100%;\r\n      height: auto;\r\n      display: block;\r\n      border-radius: 8px\r\n    }\r\n\r\n    .post__desc h2 {\r\n      margin-top: 1.2rem;\r\n      font-size: 1.35rem\r\n    }\r\n\r\n    .post__desc ul {\r\n      padding-left: 1.1rem\r\n    }\r\n\r\n    .post__desc li {\r\n      margin-bottom: .5rem\r\n    }\r\n\r\n    details {\r\n      border: 1px solid #cfe1ee;\r\n      border-radius: 10px;\r\n      padding: 12px 14px;\r\n      margin: .6rem 0 1rem;\r\n      background: #eef6fb\r\n    }\r\n\r\n    details summary {\r\n      cursor: pointer;\r\n      font-weight: 700;\r\n      list-style: none\r\n    }\r\n\r\n    details[open] summary {\r\n      margin-bottom: .6rem\r\n    }",
+    "bodyHtml": "<h1 class=\"post__title\" itemprop=\"headline\">\r\n                    Tragedia en los Alpes: Lecciones de Seguridad Humana tras el incendio en Crans-Montana\r\n                  </h1>\r\n\r\n                  <div class=\"post__desc\" itemprop=\"articleBody\">\r\n                    <p>\r\n                      El pasado 1 de enero de 2026, lo que debía ser una celebración de Año Nuevo en el bar <strong>Le\r\n                        Constellation</strong> (Suiza), se transformó en una catástrofe que cobró la vida de 40\r\n                      personas. Este incidente nos recuerda que, incluso en países con altos estándares de desarrollo,\r\n                      la <strong>seguridad contra incendios no puede darse por sentada.</strong>\r\n                    </p>\r\n\r\n                    <h2>¿Qué falló? Los puntos clave de la investigación</h2>\r\n                    <p>Las autoridades suizas y expertos en seguridad humana se centran en cinco factores críticos que\r\n                      toda empresa de ingeniería y dueños de establecimientos deben vigilar:</p>\r\n\r\n                    <ul>\r\n                      <li><strong>Uso de Pirotecnia en Interiores:</strong> La hipótesis principal apunta a bengalas en\r\n                        botellas de champán colocadas demasiado cerca del techo.</li>\r\n                      <li><strong>Propagación Ultra Rápida:</strong> Se investiga una posible combustión súbita\r\n                        generalizada (flashover), donde todos los materiales combustibles de la sala se inflaman casi\r\n                        simultáneamente debido al calor acumulado.</li>\r\n                      <li><strong>Materiales de Acabado:</strong> La carga de combustible en techos, paredes y\r\n                        mobiliario fue determinante en la densidad del humo y la velocidad del fuego.</li>\r\n                      <li><strong>Sistemas de Protección:</strong> No se ha confirmado la presencia o funcionamiento de\r\n                        rociadores y alarmas. La falta de inspecciones regulares es un punto de debate institucional.\r\n                      </li>\r\n                      <li><strong>Evacuación y Aforo:</strong> Testigos describen escenas de pánico. Se analiza si el\r\n                        número de personas superaba la capacidad permitida y si las rutas de salida estaban despejadas y\r\n                        señalizadas.</li>\r\n                    </ul>\r\n\r\n                    <h2>El Estándar Global: ¿Qué dice la NFPA?</h2>\r\n                    <p>Aunque Suiza tiene sus propias regulaciones, este incidente valida la importancia de los códigos\r\n                      de la <strong>National Fire Protection Association (NFPA)</strong>, referentes que aplicamos en la\r\n                      ingeniería de seguridad moderna:</p>\r\n\r\n                    <ul>\r\n                      <li><strong>NFPA 101 (Seguridad Humana):</strong> Define las estrategias de evacuación y\r\n                        protección según el tipo de ocupación.</li>\r\n                      <li><strong>NFPA 13 (Rociadores):</strong> Fundamental para el control temprano del fuego,\r\n                        evitando que un pequeño foco se convierta en una tragedia masiva.</li>\r\n                      <li><strong>NFPA 72 (Alarmas):</strong> Vital para la notificación oportuna que permite una\r\n                        evacuación antes de que el humo sea letal.</li>\r\n                      <li><strong>NFPA 1126 y 160:</strong> Normas específicas para el uso seguro de pirotecnia y\r\n                        efectos de llama frente a una audiencia.</li>\r\n                    </ul>\r\n\r\n                    <h2>Reflexión para el Sector</h2>\r\n                    <p>\r\n                      Como bien señala Lorraine Carli (NFPA), <em>la seguridad no es fruto de la casualidad</em>.\r\n                      Depende de un \"Ecosistema de Protección\" donde si un solo engranaje falla (como la falta de\r\n                      inspección o el uso imprudente de pirotecnia), el sistema colapsa con consecuencias devastadoras.\r\n                    </p>\r\n                    <p>\r\n                      En nuestra labor de diseño e instalación de redes contra incendio, nuestra prioridad es garantizar\r\n                      que cada componente de este ecosistema funcione, protegiendo lo más valioso: <strong>la\r\n                        vida.</strong>\r\n                    </p>\r\n\r\n                    <hr>\r\n\r\n                    <details>\r\n                      <summary>¿Qué es el \"flashover\" mencionado en el artículo?</summary>\r\n                      <p>\r\n                        Es un fenómeno donde el calor acumulado en un espacio cerrado eleva la temperatura de todos los\r\n                        materiales hasta su punto de ignición, haciendo que todo el lugar se incendie simultáneamente en\r\n                        cuestión de segundos.\r\n                      </p>\r\n                    </details>\r\n\r\n                    <details>\r\n                      <summary>¿Por qué es vital seguir las normas NFPA en establecimientos comerciales?</summary>\r\n                      <p>\r\n                        Porque proporcionan lineamientos probados científicamente para la evacuación segura, el control\r\n                        automático de llamas y la notificación temprana, minimizando el error humano y fallos técnicos.\r\n                      </p>\r\n                    </details>\r\n\r\n                  </div>"
   },
   {
-    id: 'blog8',
-    date: 'Oct 29, 2025',
-    image: 'quemaduras.png',
-    categories: ['Prevención', 'Incendios'],
-    title: 'Primeros Auxilios en Quemaduras: Guía de Actuación',
-    excerpt: 'REACCIONAR CORRECTAMENTE HACE LA DIFERENCIA. En una emergencia por quemaduras, los minutos iniciales son decisivos...',
-    content: `
-      <p>En una emergencia por quemaduras, los minutos iniciales son decisivos. Saber cómo actuar correctamente puede marcar la diferencia entre una recuperación exitosa y secuelas permanentes.</p>
-      <h2>Clasificación de quemaduras</h2>
-      <ul>
-        <li><strong>Primer grado:</strong> Afectan solo la epidermis. Piel rojiza, dolor leve.</li>
-        <li><strong>Segundo grado:</strong> Afectan dermis. Ampollas, dolor intenso.</li>
-        <li><strong>Tercer grado:</strong> Destruyen capas profundas. Pueden ser indoloras por daño nervioso.</li>
-      </ul>
-      <h2>Primeros pasos ante una quemadura</h2>
-      <ol>
-        <li>Alejar a la persona de la fuente de calor.</li>
-        <li>Enfriar la quemadura con agua fría (no helada) durante 10-20 minutos.</li>
-        <li>Cubrir con un apósito estéril limpio.</li>
-        <li>No aplicar pasta dental, mantequilla ni remedios caseros.</li>
-        <li>Buscar atención médica inmediata en quemaduras graves.</li>
-      </ol>
-      <h2>¿Qué NO hacer?</h2>
-      <p>Nunca reviente las ampollas, no aplique hielo directamente, no use ropa ajustada sobre la quemadura y no subestime la extensión de una quemadura.</p>
-    `,
+    "slug": "mantenimiento-de-redes-contra-incendio",
+    "source": "blog9.html",
+    "metaTitle": "BLOG AFC PRO FIRE — ¿Tu edificio está protegido realmente? La importancia del mantenimiento de redes contra\r\n    incendio",
+    "description": "Tener hidrantes, rociadores y sensores no basta: sin mantenimiento preventivo hay falsa seguridad, riesgo legal y hasta objeciones del seguro. Conozca por qué el mantenimiento es clave.",
+    "title": "¿Tu edificio está protegido realmente? La importancia del mantenimiento de redes contra incendio",
+    "date": "Jan 08, 2026",
+    "dateTime": "2026-01-08",
+    "image": "/assets/images/blog/grid/proteccionEdificios.png",
+    "categories": [
+      "Seguridad Humana",
+      "Prevención"
+    ],
+    "styleCss": ".blog-single .container {\r\n      max-width: 900px\r\n    }\r\n\r\n    .blog-single .post__body,\r\n    .blog-single .post__body * {\r\n      color: #004062 !important\r\n    }\r\n\r\n    .post__meta *,\r\n    .post__title {\r\n      color: #004062 !important\r\n    }\r\n\r\n    .only-info .to-remove,\r\n    .only-info .blog-share,\r\n    .only-info .blog-tags,\r\n    .only-info aside,\r\n    .only-info .page-title,\r\n    .only-info .breadcrumb {\r\n      display: none !important\r\n    }\r\n\r\n    .post__body p {\r\n      margin-bottom: 1rem;\r\n      line-height: 1.7\r\n    }\r\n\r\n    /* Imagen: reserva espacio y evita \"saltos\" si la imagen tarda/carga lenta */\r\n    .post__img {\r\n      width: 100%;\r\n      min-height: 320px;\r\n      background: #eef6fb;\r\n      border-radius: 8px;\r\n      overflow: hidden\r\n    }\r\n\r\n    .post__img img {\r\n      width: 100%;\r\n      height: auto;\r\n      display: block;\r\n      border-radius: 8px\r\n    }\r\n\r\n    .post__desc h2 {\r\n      margin-top: 1.2rem;\r\n      font-size: 1.35rem\r\n    }\r\n\r\n    .post__desc ul {\r\n      padding-left: 1.1rem\r\n    }\r\n\r\n    .post__desc li {\r\n      margin-bottom: .5rem\r\n    }\r\n\r\n    details {\r\n      border: 1px solid #cfe1ee;\r\n      border-radius: 10px;\r\n      padding: 12px 14px;\r\n      margin: .6rem 0 1rem;\r\n      background: #eef6fb\r\n    }\r\n\r\n    details summary {\r\n      cursor: pointer;\r\n      font-weight: 700;\r\n      list-style: none\r\n    }\r\n\r\n    details[open] summary {\r\n      margin-bottom: .6rem\r\n    }",
+    "bodyHtml": "<h1 class=\"post__title\" itemprop=\"headline\">\r\n                    ¿Tu edificio está protegido realmente? La importancia del mantenimiento de redes contra incendio\r\n                  </h1>\r\n\r\n                  <div class=\"post__desc\" itemprop=\"articleBody\">\r\n                    <p><strong>UN SISTEMA INSTALADO NO SIEMPRE SIGNIFICA UN SISTEMA LISTO.</strong></p>\r\n\r\n                    <p>\r\n                      En la mayoría de los edificios residenciales, el sistema contra incendios es ese “gigante\r\n                      dormido”:\r\n                      está ahí, instalado en pasillos y cuartos técnicos, pero rara vez pensamos en él… hasta que ocurre\r\n                      una emergencia.\r\n                    </p>\r\n\r\n                    <p>\r\n                      Tener una red de hidrantes, rociadores y sensores no es suficiente; la clave de la supervivencia y\r\n                      la protección económica radica en el <strong>mantenimiento preventivo</strong>.\r\n                    </p>\r\n\r\n                    <h2>1. El mantenimiento no es opcional: lo que dice la norma</h2>\r\n                    <p>\r\n                      En Colombia, la seguridad humana y la protección contra incendios están regidas principalmente por\r\n                      la\r\n                      <strong>NSR-10</strong> (Norma Sismorresistente) y normativas técnicas como las de la\r\n                      <strong>NFPA</strong>\r\n                      (especialmente <strong>NFPA 25</strong> para redes hidráulicas).\r\n                    </p>\r\n\r\n                    <p>\r\n                      Estas normas dictan que no basta con instalar el sistema; el propietario o administrador es\r\n                      responsable de\r\n                      garantizar que el sistema sea <strong>funcional los 365 días del año</strong>. Las rutinas de\r\n                      inspección\r\n                      (mensuales, trimestrales y anuales) aseguran, por ejemplo, que:\r\n                    </p>\r\n\r\n                    <ul>\r\n                      <li>Las bombas arranquen automáticamente.</li>\r\n                      <li>Las tuberías no tengan obstrucciones o corrosión.</li>\r\n                      <li>Las mangueras y extintores no estén vencidos.</li>\r\n                    </ul>\r\n\r\n                    <h2>2. El riesgo de la “falsa seguridad”</h2>\r\n                    <p>\r\n                      Un sistema sin mantenimiento es, a menudo, más peligroso que no tener nada, porque genera una\r\n                      falsa sensación de seguridad.\r\n                      Si ocurre un incendio y la red existente falla por falta de cuidado (por ejemplo, una válvula\r\n                      pegada o una bomba fuera de servicio),\r\n                      las consecuencias pueden ser devastadoras:\r\n                    </p>\r\n\r\n                    <ul>\r\n                      <li><strong>Pérdida de vidas:</strong> los minutos que se pierden intentando activar un sistema\r\n                        fallido son vitales.</li>\r\n                      <li><strong>Daños estructurales mayores:</strong> un fuego que pudo controlarse con un rociador\r\n                        termina afectando pisos enteros.</li>\r\n                    </ul>\r\n\r\n                    <h2>3. El factor póliza: ¿por qué el seguro podría no pagarte?</h2>\r\n                    <p>\r\n                      Este es el punto que más preocupa a las administraciones y consejos de administración. Cuando\r\n                      ocurre un siniestro,\r\n                      las compañías de seguros envían peritos para investigar la causa y el estado de los sistemas de\r\n                      mitigación.\r\n                    </p>\r\n\r\n                    <p>\r\n                      Si se demuestra que el incendio se extendió porque la red contra incendios no funcionó debido a\r\n                      falta de mantenimiento,\r\n                      la aseguradora puede <strong>objetar el pago</strong>.\r\n                    </p>\r\n\r\n                    <h2>Conclusión: prevención es ahorro</h2>\r\n                    <p>\r\n                      El mantenimiento preventivo no es un gasto, es la inversión que valida tu seguro y garantiza la\r\n                      vida de los residentes.\r\n                      Un sistema certificado es tu mejor defensa ante el fuego y ante las entidades legales.\r\n                    </p>\r\n\r\n                    <!-- FAQ plegables opcionales -->\r\n                    <details>\r\n                      <summary>¿Cada cuánto se debe hacer mantenimiento a la red contra incendio?</summary>\r\n                      <p>\r\n                        Depende del sistema y la norma aplicable, pero normalmente se realizan rutinas de inspección\r\n                        mensuales, trimestrales y anuales para asegurar operación continua y cumplimiento.\r\n                      </p>\r\n                    </details>\r\n\r\n                    <details>\r\n                      <summary>¿Qué pasa si el sistema está instalado pero no se ha mantenido?</summary>\r\n                      <p>\r\n                        Puede fallar en una emergencia (falsa seguridad), aumentar el daño, elevar el riesgo legal y,\r\n                        en ciertos casos, dar lugar a objeciones por parte de la aseguradora.\r\n                      </p>\r\n                    </details>\r\n\r\n                    <details>\r\n                      <summary>¿Qué debería incluir un mantenimiento preventivo bien hecho?</summary>\r\n                      <p>\r\n                        Revisión de bombas, válvulas, presiones, estado de tuberías, puntos de red, mangueras,\r\n                        señalización,\r\n                        pruebas funcionales y registro/documentación de actividades realizadas.\r\n                      </p>\r\n                    </details>\r\n\r\n                  </div>"
   },
   {
-    id: 'blog7',
-    date: 'Sep 20, 2025',
-    image: 'preguntas.png',
-    categories: ['Prevención', 'Incendios'],
-    title: 'Preguntas Frecuentes (FAQ)',
-    excerpt: 'Respuestas claras a las dudas más comunes sobre detectores, extintores y evacuación...',
-    content: `
-      <h2>¿Con qué frecuencia debo revisar mi extintor?</h2>
-      <p>Los extintores deben revisarse visualmente cada mes y someterse a una inspección técnica anual por un profesional certificado. Cada 5 años se recomienda una prueba hidrostática.</p>
-      <h2>¿Dónde debo instalar detectores de humo?</h2>
-      <p>En todas las habitaciones donde se duerme, en los pasillos adyacentes, en cada piso de la vivienda y cerca (pero no dentro) de la cocina para evitar falsas alarmas.</p>
-      <h2>¿Qué hago si suena la alarma contra incendios?</h2>
-      <p>Active inmediatamente el plan de evacuación, no use el ascensor, cierre las puertas al salir (sin llave) para retardar el avance del fuego, y diríjase al punto de encuentro.</p>
-      <h2>¿Cada cuánto tiempo se deben hacer simulacros?</h2>
-      <p>Las empresas deben realizar al menos un simulacro de evacuación al año, aunque se recomienda hacerlo semestralmente para mantener al personal entrenado.</p>
-      <h2>¿Qué tipo de extintor necesito para mi empresa?</h2>
-      <p>Depende del tipo de riesgo: Clase A para materiales sólidos, Clase B para líquidos inflamables, Clase C para equipos eléctricos, y Clase K para cocinas comerciales.</p>
-    `,
+    "slug": "primeros-auxilios-en-quemaduras",
+    "source": "blog8.html",
+    "metaTitle": "BLOG AFC PRO FIRE — Primeros Auxilios en Quemaduras: Guía de Actuación",
+    "description": "Guía práctica para actuar correctamente ante quemaduras: asegure la zona, elimine la causa, refresque la piel 10–20 minutos y cubra sin presionar. Conozca cuándo buscar atención médica inmediata.",
+    "title": "Primeros Auxilios en Quemaduras: Guía de Actuación",
+    "date": "Oct 16, 2025",
+    "dateTime": "2025-10-16",
+    "image": "/assets/images/blog/grid/quemaduras.png",
+    "categories": [
+      "Salud y Seguridad",
+      "Prevención"
+    ],
+    "styleCss": ".blog-single .container {\r\n      max-width: 900px\r\n    }\r\n\r\n    .blog-single .post__body,\r\n    .blog-single .post__body * {\r\n      color: #004062 !important\r\n    }\r\n\r\n    .post__meta *,\r\n    .post__title {\r\n      color: #004062 !important\r\n    }\r\n\r\n    .only-info .to-remove,\r\n    .only-info .blog-share,\r\n    .only-info .blog-tags,\r\n    .only-info aside,\r\n    .only-info .page-title,\r\n    .only-info .breadcrumb {\r\n      display: none !important\r\n    }\r\n\r\n    .post__body p {\r\n      margin-bottom: 1rem;\r\n      line-height: 1.7\r\n    }\r\n\r\n    .post__img img {\r\n      width: 100%;\r\n      height: auto;\r\n      display: block;\r\n      border-radius: 8px\r\n    }\r\n\r\n    .post__desc h2 {\r\n      margin-top: 1.2rem;\r\n      font-size: 1.35rem\r\n    }\r\n\r\n    .post__desc ul {\r\n      padding-left: 1.1rem\r\n    }\r\n\r\n    .post__desc li {\r\n      margin-bottom: .5rem\r\n    }\r\n\r\n    details {\r\n      border: 1px solid #cfe1ee;\r\n      border-radius: 10px;\r\n      padding: 12px 14px;\r\n      margin: .6rem 0 1rem;\r\n      background: #eef6fb\r\n    }\r\n\r\n    details summary {\r\n      cursor: pointer;\r\n      font-weight: 700;\r\n      list-style: none\r\n    }\r\n\r\n    details[open] summary {\r\n      margin-bottom: .6rem\r\n    }",
+    "bodyHtml": "<h1 class=\"post__title\" itemprop=\"headline\">Primeros Auxilios en Quemaduras: Guía de Actuación</h1>\r\n\r\n                  <div class=\"post__desc\" itemprop=\"articleBody\">\r\n                    <p><strong>REACCIONAR CORRECTAMENTE HACE LA DIFERENCIA.</strong></p>\r\n                    <p>En una emergencia por quemaduras, los minutos iniciales son decisivos. Una intervención adecuada\r\n                      y oportuna puede prevenir lesiones graves y optimizar la recuperación del paciente.</p>\r\n\r\n                    <h2>1. PASOS ESENCIALES (¡ACTÚE!)</h2>\r\n                    <ul>\r\n                      <li><strong>GARANTICE LA SEGURIDAD:</strong> Asegure que el entorno sea seguro para usted y la\r\n                        víctima antes de intervenir.</li>\r\n                      <li><strong>ELIMINE LA CAUSA:</strong> Detenga la fuente de calor. Si es eléctrica, no toque a la\r\n                        víctima hasta cortar la energía.</li>\r\n                      <li><strong>RETIRE ROPA Y JOYAS NO ADHERIDAS:</strong> Quite anillos, cinturones o prendas sueltas\r\n                        antes de la hinchazón. <em>No retire ropa pegada a la piel.</em></li>\r\n                      <li><strong>REFRESQUE LA ZONA:</strong> Aplique agua fresca (no helada) durante 10–20 minutos para\r\n                        detener la quemadura y aliviar el dolor.</li>\r\n                      <li><strong>CUBRA LA HERIDA:</strong> Cubra holgadamente con gasa estéril o paño limpio, sin\r\n                        presionar.</li>\r\n                      <li><strong>EVITE RIESGOS:</strong> No reviente ampollas ni aplique hielo, mantequilla, aceites,\r\n                        cremas ni remedios caseros.</li>\r\n                    </ul>\r\n\r\n                    <h2>2. ATENCIÓN MÉDICA INMEDIATA</h2>\r\n                    <p>Llame al <strong>número local de emergencias</strong> o traslade al paciente de inmediato si:</p>\r\n                    <ul>\r\n                      <li>La quemadura es extensa o afecta cara, manos, pies, genitales o articulaciones mayores.</li>\r\n                      <li>Hay ampollas grandes, piel seca/curtida o carbonizada.</li>\r\n                      <li>La víctima es un bebé, niño pequeño, adulto mayor o la causa fue química o eléctrica.</li>\r\n                    </ul>\r\n\r\n                    <!-- FAQ plegables opcionales -->\r\n                    <details>\r\n                      <summary>¿Puedo usar pomadas o cremas?</summary>\r\n                      <p>No en la fase inicial. Priorice refrescar con agua 10–20 minutos y cubrir. El personal médico\r\n                        indicará tratamientos tópicos si corresponde.</p>\r\n                    </details>\r\n                  </div>"
   },
   {
-    id: 'blog6',
-    date: 'Sep 9, 2025',
-    image: 'incendios.png',
-    categories: ['Prevención', 'Incendios'],
-    title: 'Desmintiendo Mitos Comunes',
-    excerpt: 'El fuego pequeño no siempre se extingue solo. Descubre los mitos que pueden costar vidas...',
-    content: `
-      <h2>Mito 1: "Un incendio pequeño se extingue solo"</h2>
-      <p>Falso. Un incendio puede pasar de pequeño a incontrolable en cuestión de segundos. La celulosa, los plásticos y los textiles se queman rápidamente y pueden propagar el fuego a toda una habitación en menos de 2 minutos.</p>
-      <h2>Mito 2: "Los detectores de humo son suficientes"</h2>
-      <p>Los detectores alertan, pero no extinguen. Un sistema completo de protección debe incluir detección, alarma, extinción (rociadores o extintores) y evacuación.</p>
-      <h2>Mito 3: "El agua siempre apaga el fuego"</h2>
-      <p>Falso. En incendios eléctricos, el agua puede causar electrocución. En incendios de aceites o combustibles, puede provocar explosiones. Usar el agente extintor correcto es fundamental.</p>
-      <h2>Mito 4: "Los rociadores se activan con el humo"</h2>
-      <p>Los rociadores se activan por calor, no por humo. Cada rociador tiene un fusible térmico que se activa de forma independiente al alcanzar cierta temperatura.</p>
-      <h2>Mito 5: "Las puertas de emergencia siempre están disponibles"</h2>
-      <p>Muchas empresas bloquean las salidas de emergencia por razones de seguridad o logística, lo que es ilegal y puede costar vidas durante una evacuación.</p>
-    `,
+    "slug": "preguntas-frecuentes-faq",
+    "source": "blog7.html",
+    "metaTitle": "BLOG AFC PRO FIRE — Preguntas frecuentes (FAQ) sobre seguridad contra incendios",
+    "description": "Respuestas claras a preguntas frecuentes sobre seguridad contra incendios: revisión de extintores y detectores, qué hacer ante una alarma y cuándo evacuar o intentar apagar un fuego.",
+    "title": "Preguntas frecuentes (FAQ) sobre seguridad contra incendios",
+    "date": "Ago 26, 2025",
+    "dateTime": "2025-08-26",
+    "image": "/assets/images/blog/grid/preguntas.png",
+    "categories": [
+      "FAQ",
+      "Seguridad"
+    ],
+    "styleCss": "/* ========= Blog informativo: 1 columna, solo contenido ========= */\r\n    .blog-single .container {\r\n      max-width: 900px;\r\n    }\r\n\r\n    /* Todo el contenido del artículo en azul (fondo blanco) */\r\n    .blog-single .post__body,\r\n    .blog-single .post__body * {\r\n      color: #004062 !important;\r\n    }\r\n\r\n    /* Título / meta también azules */\r\n    .post__meta *,\r\n    .post__title {\r\n      color: #004062 !important;\r\n    }\r\n\r\n    /* Solo informativo: sin botones, sin tags, sin sidebar, sin breadcrumbs */\r\n    .only-info .to-remove,\r\n    .only-info .blog-share,\r\n    .only-info .blog-tags,\r\n    .only-info aside,\r\n    .only-info .page-title,\r\n    .only-info .breadcrumb {\r\n      display: none !important;\r\n    }\r\n\r\n    /* Legibilidad */\r\n    .post__body p {\r\n      margin-bottom: 1rem;\r\n      line-height: 1.7;\r\n    }\r\n\r\n    .post__img img {\r\n      width: 100%;\r\n      height: auto;\r\n      display: block;\r\n      border-radius: 8px;\r\n    }\r\n\r\n    .post__desc h2 {\r\n      margin-top: 1.2rem;\r\n      font-size: 1.35rem;\r\n    }\r\n\r\n    .post__desc ul {\r\n      padding-left: 1.1rem;\r\n    }\r\n\r\n    .post__desc li {\r\n      margin-bottom: .5rem;\r\n    }\r\n\r\n    /* FAQ accesible opcional (details) */\r\n    details {\r\n      border: 1px solid #cfe1ee;\r\n      border-radius: 10px;\r\n      padding: 12px 14px;\r\n      margin: .6rem 0 1rem;\r\n      background: #eef6fb;\r\n    }\r\n\r\n    details summary {\r\n      cursor: pointer;\r\n      font-weight: 700;\r\n      outline: none;\r\n      list-style: none;\r\n    }\r\n\r\n    details[open] summary {\r\n      margin-bottom: .6rem;\r\n    }",
+    "bodyHtml": "<h1 class=\"post__title\" itemprop=\"headline\">Preguntas frecuentes (FAQ) sobre seguridad contra incendios\r\n                </h1>\r\n\r\n                <div class=\"post__desc\" itemprop=\"articleBody\">\r\n                  <details open>\r\n                    <summary>¿Cada cuánto debo revisar mis extintores y detectores de humo?</summary>\r\n                    <p><strong>Detectores domésticos:</strong> pruébalos <strong>mensualmente</strong> con el botón de\r\n                      prueba y cambia baterías <strong>una vez al año</strong> (o según el fabricante).</p>\r\n                    <p><strong>Extintores y sistemas profesionales:</strong> deben ser <strong>inspeccionados y\r\n                        mantenidos</strong> conforme a normativas locales por <strong>personal certificado</strong>.</p>\r\n                  </details>\r\n\r\n                  <details>\r\n                    <summary>¿Qué hago si se activa una alarma de incendio?</summary>\r\n                    <p><strong>Evacúa de inmediato.</strong> No asumas que es falsa alarma. Sigue las rutas de\r\n                      evacuación, llega al punto de encuentro y <strong>llama a los bomberos</strong> cuando estés fuera\r\n                      y a salvo.</p>\r\n                  </details>\r\n\r\n                  <details>\r\n                    <summary>¿Cuándo debo evacuar y cuándo intentar apagar un fuego?</summary>\r\n                    <p>Solo intenta apagarlo si cumple <em>todas</em> estas condiciones:</p>\r\n                    <ul>\r\n                      <li>Es <strong>muy pequeño</strong> (p.ej., del tamaño de una papelera).</li>\r\n                      <li>Tienes un <strong>extintor adecuado</strong> para el tipo de fuego.</li>\r\n                      <li>Tu <strong>ruta de escape</strong> está clara.</li>\r\n                      <li><strong>No hay humo denso</strong> ni riesgo inmediato.</li>\r\n                    </ul>\r\n                    <p>Ante la duda, <strong>evacúa siempre</strong>. Tu vida es lo más importante.</p>\r\n                  </details>\r\n                </div>"
   },
   {
-    id: 'blog5',
-    date: 'Sep 2, 2025',
-    image: 'seguridad.png',
-    categories: ['Prevención', 'Incendios'],
-    title: '¿Qué Puedes Hacer Tú?',
-    excerpt: 'Consejos prácticos en casa y oficina: detectores, extintores, planes de evacuación...',
-    content: `
-      <p>La seguridad contra incendios no depende solo de los sistemas instalados. El comportamiento y la preparación de las personas es igual de importante.</p>
-      <h2>En tu hogar</h2>
-      <ul>
-        <li>Instala detectores de humo en cada piso y cerca de las habitaciones.</li>
-        <li>Ten un extintor multipropósito (ABC) accesible.</li>
-        <li>No sobrecargues los tomas eléctricos.</li>
-        <li>Nunca dejes la cocina desatendida mientras cocinas.</li>
-        <li>Planifica una ruta de evacuación familiar y practícala.</li>
-      </ul>
-      <h2>En tu empresa</h2>
-      <ul>
-        <li>Conoce la ubicación de todos los extintores y salidas de emergencia.</li>
-        <li>Participa activamente en los simulacros de evacuación.</li>
-        <li>Reporta inmediatamente cualquier anomalía en equipos eléctricos.</li>
-        <li>No bloquees las rutas de evacuación.</li>
-        <li>Solicita capacitación en uso de extintores.</li>
-      </ul>
-    `,
+    "slug": "desmintiendo-mitos-comunes",
+    "source": "blog6.html",
+    "metaTitle": "BLOG AFC PRO FIRE — Desmintiendo mitos comunes sobre incendios y seguridad",
+    "description": "Aclaramos mitos peligrosos sobre incendios: rociadores, detectores de humo y crecimiento del fuego. Información clara y verificada para tu seguridad.",
+    "title": "Desmintiendo mitos comunes sobre incendios y seguridad",
+    "date": "Ago 26, 2025",
+    "dateTime": "2025-08-26",
+    "image": "/assets/images/blog/grid/incendios.png",
+    "categories": [
+      "Prevención",
+      "Seguridad"
+    ],
+    "styleCss": "/* ========= Blog informativo: 1 columna, solo contenido ========= */\r\n    .blog-single .container {\r\n      max-width: 900px;\r\n    }\r\n\r\n    /* Todo el contenido del artículo en azul (fondo blanco) */\r\n    .blog-single .post__body,\r\n    .blog-single .post__body * {\r\n      color: #004062 !important;\r\n    }\r\n\r\n    /* Título / meta también azules */\r\n    .post__meta *,\r\n    .post__title {\r\n      color: #004062 !important;\r\n    }\r\n\r\n    /* Solo informativo: sin botones, sin tags, sin sidebar, sin breadcrumbs */\r\n    .only-info .to-remove,\r\n    .only-info .blog-share,\r\n    .only-info .blog-tags,\r\n    .only-info aside,\r\n    .only-info .page-title,\r\n    .only-info .breadcrumb {\r\n      display: none !important;\r\n    }\r\n\r\n    /* Legibilidad */\r\n    .post__body p {\r\n      margin-bottom: 1rem;\r\n      line-height: 1.7;\r\n    }\r\n\r\n    .post__img img {\r\n      width: 100%;\r\n      height: auto;\r\n      display: block;\r\n      border-radius: 8px;\r\n    }\r\n\r\n    .post__desc h2 {\r\n      margin-top: 1.2rem;\r\n      font-size: 1.35rem;\r\n    }\r\n\r\n    .post__desc ul {\r\n      padding-left: 1.1rem;\r\n    }\r\n\r\n    .post__desc li {\r\n      margin-bottom: .5rem;\r\n    }\r\n\r\n    /* Bloques mito/realidad */\r\n    .myth {\r\n      font-weight: 700;\r\n    }\r\n\r\n    .fact {\r\n      background: #eef6fb;\r\n      border: 1px solid #cfe1ee;\r\n      border-radius: 10px;\r\n      padding: 12px 14px;\r\n      margin: .6rem 0 1rem;\r\n    }",
+    "bodyHtml": "<h1 class=\"post__title\" itemprop=\"headline\">Desmintiendo mitos comunes sobre incendios y seguridad</h1>\r\n\r\n                <div class=\"post__desc\" itemprop=\"articleBody\">\r\n                  <p>La desinformación puede ponerte en riesgo durante una emergencia. Aclaremos tres mitos frecuentes y\r\n                    qué dice la evidencia.</p>\r\n\r\n                  <h2>Mito 1: “Si el fuego es pequeño, se apaga solo”</h2>\r\n                  <p class=\"myth\">Mito:</p>\r\n                  <p>“El fuego siempre se extingue solo si es pequeño”.</p>\r\n                  <div class=\"fact\" role=\"note\" aria-label=\"Realidad sobre el crecimiento del fuego\">\r\n                    <strong>Realidad:</strong> Un conato puede crecer en segundos por la disponibilidad de combustible,\r\n                    el calor acumulado y la ventilación. Esperar a que “se apague solo” retrasa la llamada a emergencias\r\n                    y agrava el riesgo. Si no es seguro usar un extintor, evacúa y llama a los servicios de emergencia.\r\n                  </div>\r\n\r\n                  <h2>Mito 2: “Si se activa un rociador, se moja todo el edificio”</h2>\r\n                  <p class=\"myth\">Mito:</p>\r\n                  <p>“Al activarse un rociador se disparan todos a la vez”.</p>\r\n                  <div class=\"fact\" role=\"note\" aria-label=\"Realidad sobre los rociadores automáticos\">\r\n                    <strong>Realidad:</strong> Los sistemas de rociadores modernos se activan <em>de forma\r\n                      individual</em> cuando cada cabezal detecta calor en su zona. Generalmente trabajan únicamente los\r\n                    rociadores cercanos al foco del incendio, lo que limita daños por agua y controla el fuego con\r\n                    rapidez.\r\n                  </div>\r\n\r\n                  <h2>Mito 3: “No necesito detectores; olería el humo”</h2>\r\n                  <p class=\"myth\">Mito:</p>\r\n                  <p>“El olfato me alertará si algo pasa, incluso durmiendo”.</p>\r\n                  <div class=\"fact\" role=\"note\" aria-label=\"Realidad sobre detectores de humo\">\r\n                    <strong>Realidad:</strong> El humo puede ser imperceptible mientras duermes y algunas partículas son\r\n                    poco olorosas. Los detectores de humo son tu alerta temprana: instálalos, pruébalos mensualmente y\r\n                    mantén sus baterías según el fabricante.\r\n                  </div>\r\n\r\n                  <h2>Conclusión</h2>\r\n                  <p>La seguridad contra incendios se basa en <strong>información confiable</strong>, equipos adecuados\r\n                    y mantenimiento. Detectores, rociadores y extintores salvan vidas cuando se instalan y se usan\r\n                    correctamente.</p>\r\n                </div>"
   },
   {
-    id: 'blog4',
-    date: 'Ago 30, 2025',
-    image: 'integracion.png',
-    categories: ['Prevención', 'Incendios'],
-    title: 'La Sinergia de la Seguridad',
-    excerpt: 'Así trabajan juntos detectores, alarmas, rociadores y evacuación para salvar vidas...',
-    content: `
-      <p>Un sistema de protección contra incendios efectivo no es una colección de equipos aislados, sino un sistema integrado donde cada componente trabaja en conjunto para detectar, alertar, controlar y facilitar la evacuación.</p>
-      <h2>Detección: El primer eslabón</h2>
-      <p>Los detectores de humo, calor y gas son los ojos del sistema. Su función es detectar el incendio lo más temprano posible, antes de que se propague.</p>
-      <h2>Alarma: La voz del sistema</h2>
-      <p>Una vez detectado el peligro, el panel de control activa las alarmas audibles y visuales para alertar a los ocupantes y, en sistemas conectados, notifica a la central de monitoreo y a los bomberos.</p>
-      <h2>Supresión: Controlando el fuego</h2>
-      <p>Los sistemas de rociadores, agentes limpios o CO₂ actúan para controlar o extinguir el incendio, ganando tiempo valioso para la evacuación.</p>
-      <h2>Evacuación: El objetivo final</h2>
-      <p>Toda la tecnología existe para proteger vidas. Las rutas de evacuación bien señalizadas, las puertas cortafuego y el personal capacitado son el último eslabón de la cadena.</p>
-    `,
+    "slug": "que-puedes-hacer-tu",
+    "source": "blog5.html",
+    "metaTitle": "BLOG AFC PRO FIRE — ¿Qué puedes hacer tú para estar seguro?",
+    "description": "Consejos prácticos para mejorar la seguridad contra incendios en el hogar y en el trabajo: detectores de humo, extintores, planes de evacuación, orden y mantenimiento. Artículo informativo de AFC PRO FIRE.",
+    "title": "¿Qué puedes hacer tú para estar seguro?",
+    "date": "Ago 26, 2025",
+    "dateTime": "2025-08-26",
+    "image": "/assets/images/blog/grid/seguridad.png",
+    "categories": [
+      "Prevención",
+      "Consejos"
+    ],
+    "styleCss": "/* ========= Ajustes del blog informativo (una columna) ========= */\r\n    .blog-single .container {\r\n      max-width: 900px;\r\n    }\r\n\r\n    /* Todo el contenido en azul (sobre fondo blanco) */\r\n    .blog-single .post__body,\r\n    .blog-single .post__body * {\r\n      color: #004062 !important;\r\n    }\r\n\r\n    .post__meta *,\r\n    .post__title {\r\n      color: #004062 !important;\r\n    }\r\n\r\n    /* Solo informativa: sin botones, sin tags, sin sidebar, sin breadcrumbs */\r\n    .only-info .to-remove,\r\n    .only-info .blog-share,\r\n    .only-info .blog-tags,\r\n    .only-info aside,\r\n    .only-info .page-title,\r\n    .only-info .breadcrumb {\r\n      display: none !important;\r\n    }\r\n\r\n    .post__body p {\r\n      margin-bottom: 1rem;\r\n      line-height: 1.7;\r\n    }\r\n\r\n    .post__img img {\r\n      width: 100%;\r\n      height: auto;\r\n      display: block;\r\n      border-radius: 8px;\r\n    }\r\n\r\n    /* Bloques de sección */\r\n    .post__desc h2 {\r\n      margin-top: 1.2rem;\r\n      font-size: 1.35rem;\r\n    }\r\n\r\n    .post__desc ul {\r\n      padding-left: 1.1rem;\r\n    }\r\n\r\n    .post__desc li {\r\n      margin-bottom: .5rem;\r\n    }\r\n\r\n    /* Tips destacados */\r\n    .callout {\r\n      background: #eef6fb;\r\n      border: 1px solid #cfe1ee;\r\n      border-radius: 10px;\r\n      padding: 14px 16px;\r\n      margin: 1rem 0;\r\n    }",
+    "bodyHtml": "<h1 class=\"post__title\" itemprop=\"headline\">¿Qué puedes hacer tú para estar seguro?</h1>\r\n\r\n                <div class=\"post__desc\" itemprop=\"articleBody\">\r\n                  <p>La seguridad contra incendios es una <strong>responsabilidad compartida</strong>. Estas acciones\r\n                    simples, bien aplicadas, reducen riesgos y mejoran la respuesta ante emergencias.</p>\r\n\r\n                  <h2>En tu hogar</h2>\r\n                  <ul>\r\n                    <li><strong>Instala detectores de humo:</strong> colócalos dentro y fuera de los dormitorios y en\r\n                      cada nivel. Pruébalos mensualmente con el botón de prueba y cambia baterías al menos una vez al\r\n                      año (o según indique el fabricante).</li>\r\n                    <li><strong>Ten extintores a la mano:</strong> uno en la cocina y otro en el garaje. Asegúrate de\r\n                      que todos sepan dónde están y cómo usarlos.</li>\r\n                    <li><strong>Plan de evacuación familiar:</strong> dibuja un plano con dos salidas por habitación,\r\n                      practíquenlo con frecuencia y definan un punto de encuentro seguro afuera.</li>\r\n                    <li><strong>Controla riesgos comunes:</strong> no sobrecargues enchufes, desconecta aparatos que no\r\n                      uses, supervisa la cocina, y nunca dejes velas o cigarrillos desatendidos.</li>\r\n                  </ul>\r\n\r\n                  <div class=\"callout\" role=\"note\" aria-label=\"Tip de uso de extintor\">\r\n                    <strong>Recuerda el método PASS:</strong> <em>Pull, Aim, Squeeze, Sweep</em> (Jala el seguro, Apunta\r\n                    a la base, Aprieta la palanca, Barre de lado a lado).\r\n                  </div>\r\n\r\n                  <h2>En la oficina / negocio</h2>\r\n                  <ul>\r\n                    <li><strong>Conoce tus rutas de evacuación:</strong> identifica salidas de emergencia y puntos de\r\n                      reunión.</li>\r\n                    <li><strong>Ubicación de extintores y alarmas:</strong> familiarízate con su localización y\r\n                      señalización.</li>\r\n                    <li><strong>Participa en simulacros:</strong> son clave para evacuar de forma segura y ordenada.\r\n                    </li>\r\n                    <li><strong>Orden y limpieza:</strong> evita acumulación de combustibles y mantén despejados\r\n                      pasillos y salidas.</li>\r\n                  </ul>\r\n\r\n                  <h2>¿Cuándo llamar a expertos?</h2>\r\n                  <p>Si necesitas <strong>instalar</strong> un sistema, realizar <strong>mantenimiento\r\n                      preventivo</strong>, <strong>auditar riesgos</strong> o <strong>capacitar</strong> al personal,\r\n                    recurre a profesionales calificados. Su experiencia garantiza que los equipos funcionen\r\n                    correctamente cuando más los necesites.</p>\r\n                </div>"
   },
   {
-    id: 'blog3',
-    date: 'Ago 28, 2025',
-    image: 'prevencion.png',
-    categories: ['Prevención', 'Incendios'],
-    title: 'Tipos de Protección',
-    excerpt: 'Protección activa: detectores, alarmas, rociadores. Protección pasiva: barreras, sellos...',
-    content: `
-      <h2>Protección Activa contra Incendios</h2>
-      <p>La protección activa requiere acción o activación para funcionar. Incluye sistemas que detectan, alertan y suprimen el fuego de manera automática o manual.</p>
-      <ul>
-        <li><strong>Sistemas de detección:</strong> Detectores de humo, calor, llama y gas.</li>
-        <li><strong>Sistemas de alarma:</strong> Sirenas, estrobos, altavoces de evacuación.</li>
-        <li><strong>Sistemas de supresión:</strong> Rociadores, agentes limpios, CO₂, espuma.</li>
-        <li><strong>Sistemas de bombeo:</strong> Bombas contra incendio y redes hidráulicas.</li>
-      </ul>
-      <h2>Protección Pasiva contra Incendios</h2>
-      <p>La protección pasiva está integrada en la construcción del edificio y funciona sin necesidad de activación. Su objetivo es contener el fuego y el humo, y proteger la estructura.</p>
-      <ul>
-        <li><strong>Barreras y compartimentación:</strong> Muros, pisos y techos resistentes al fuego.</li>
-        <li><strong>Puertas cortafuego:</strong> Contienen la propagación del fuego entre sectores.</li>
-        <li><strong>Sellos y tapafuegos:</strong> Impiden que el fuego y el humo pasen por ductos y penetraciones.</li>
-        <li><strong>Recubrimientos ignífugos:</strong> Protegen estructuras metálicas y de concreto.</li>
-      </ul>
-    `,
+    "slug": "la-sinergia-de-la-seguridad",
+    "source": "blog4.html",
+    "metaTitle": "BLOG AFC PRO FIRE — La sinergia de la seguridad: cómo los sistemas trabajan juntos",
+    "description": "Blog informativo: cómo se integran detección, alarma, supresión/contención y evacuación en la protección contra incendios. Importancia del mantenimiento periódico para que todo funcione en armonía.",
+    "title": "La sinergia de la seguridad: cómo los sistemas trabajan juntos",
+    "date": "Ago 26, 2025",
+    "dateTime": "2025-08-26",
+    "image": "/assets/images/blog/grid/integracion.png",
+    "categories": [
+      "Prevención",
+      "Integración"
+    ],
+    "styleCss": "/* ========= Ajustes del blog informativo (una columna) ========= */\r\n    .blog-single .container {\r\n      max-width: 900px;\r\n    }\r\n\r\n    /* Todo el contenido en azul (sobre fondo blanco) */\r\n    .blog-single .post__body,\r\n    .blog-single .post__body * {\r\n      color: #004062 !important;\r\n    }\r\n\r\n    .post__meta *,\r\n    .post__title {\r\n      color: #004062 !important;\r\n    }\r\n\r\n    /* Solo informativa: sin botones, sin tags, sin sidebar, sin breadcrumbs */\r\n    .only-info .to-remove,\r\n    .only-info .blog-share,\r\n    .only-info .blog-tags,\r\n    .only-info aside,\r\n    .only-info .page-title,\r\n    .only-info .breadcrumb {\r\n      display: none !important;\r\n    }\r\n\r\n    .post__body p {\r\n      margin-bottom: 1rem;\r\n      line-height: 1.7;\r\n    }\r\n\r\n    .post__img img {\r\n      width: 100%;\r\n      height: auto;\r\n      display: block;\r\n    }\r\n\r\n    /* Paso a paso con tarjetas y línea temporal simple */\r\n    .steps {\r\n      position: relative;\r\n      margin: 1rem 0;\r\n    }\r\n\r\n    .step {\r\n      border: 1px solid #cfe1ee;\r\n      background: #eef6fb;\r\n      padding: 14px 16px;\r\n      border-radius: 10px;\r\n      margin-bottom: 12px;\r\n    }\r\n\r\n    .step h3 {\r\n      margin: 0 0 .4rem 0;\r\n      font-size: 1.05rem;\r\n    }\r\n\r\n    .note {\r\n      font-size: .95rem;\r\n      opacity: .9;\r\n    }\r\n\r\n    /* Listas legibles */\r\n    .post__desc ul {\r\n      padding-left: 1.1rem;\r\n    }\r\n\r\n    .post__desc li {\r\n      margin-bottom: .4rem;\r\n    }",
+    "bodyHtml": "<h1 class=\"post__title\" itemprop=\"headline\">La sinergia de la seguridad: cómo los sistemas trabajan\r\n                  juntos</h1>\r\n\r\n                <div class=\"post__desc\" itemprop=\"articleBody\">\r\n                  <p>Imagina una <strong>orquesta</strong> donde cada instrumento tiene su función, pero todos tocan en\r\n                    armonía. Así trabajan <strong>detección</strong>, <strong>alerta</strong>,\r\n                    <strong>supresión/contención</strong> y <strong>evacuación</strong> en un sistema de protección\r\n                    contra incendios bien diseñado.</p>\r\n\r\n                  <div class=\"steps\" aria-label=\"Flujo coordinado de respuesta ante incendios\">\r\n                    <div class=\"step\">\r\n                      <h3>1) Detección</h3>\r\n                      <p>Un <strong>detector</strong> percibe humo o calor. Esta señal inicia el resto de acciones de\r\n                        forma automática o supervisada.</p>\r\n                    </div>\r\n                    <div class=\"step\">\r\n                      <h3>2) Alerta</h3>\r\n                      <p>La <strong>alarma</strong> se activa para avisar a todas las personas presentes: bocinas,\r\n                        estrobos o mensajes de voz indican evacuar.</p>\r\n                    </div>\r\n                    <div class=\"step\">\r\n                      <h3>3) Supresión / Contención</h3>\r\n                      <p>Si el fuego crece, se activan <strong>rociadores</strong> o se emplean\r\n                        <strong>extintores</strong> cuando es seguro. En paralelo, la <strong>protección pasiva</strong>\r\n                        (puertas y sellos cortafuego, materiales RF) <em>sectoriza</em> el incendio y limita el humo.\r\n                      </p>\r\n                    </div>\r\n                    <div class=\"step\">\r\n                      <h3>4) Evacuación</h3>\r\n                      <p>Las personas siguen <strong>rutas de evacuación</strong> señalizadas hacia puntos seguros,\r\n                        apoyadas por iluminación y señalética visibles.</p>\r\n                    </div>\r\n                  </div>\r\n\r\n                  <h2>Mantenimiento: el director de la orquesta</h2>\r\n                  <p>Para que esta “orquesta” funcione cuando más la necesitas, el <strong>mantenimiento\r\n                      regular</strong> es crucial. Un sistema inoperante equivale a no tener protección.</p>\r\n                  <ul>\r\n                    <li><strong>Pruebas periódicas</strong> de detectores, alarmas, paneles y comunicación con\r\n                      monitoreo.</li>\r\n                    <li><strong>Inspecciones</strong> de bombas, válvulas, presiones y pruebas de flujo en rociadores.\r\n                    </li>\r\n                    <li><strong>Verificación</strong> de puertas/sellos cortafuego y reposición de integridad tras\r\n                      obras.</li>\r\n                    <li><strong>Señalización</strong> e iluminación de emergencia funcionales y visibles.</li>\r\n                    <li><strong>Capacitación</strong> y simulacros para que todos sepan cómo actuar.</li>\r\n                  </ul>\r\n\r\n                  <p class=\"note\">La <strong>sinergia</strong> entre componentes activos y pasivos, sumada a una\r\n                    adecuada operación y mantenimiento, maximiza la protección de <em>vidas, activos y continuidad</em>\r\n                    del negocio.</p>\r\n                </div>"
   },
   {
-    id: 'blog2',
-    date: 'Ago 25, 2025',
-    image: 'trianguloDeFuego.png',
-    categories: ['Prevención', 'Incendios'],
-    title: 'Lo Básico del Fuego',
-    excerpt: 'El triángulo del fuego: combustible, oxígeno y calor. Romperlo es clave para apagarlo...',
-    content: `
-      <h2>El Triángulo del Fuego</h2>
-      <p>Para que exista un incendio, deben estar presentes simultáneamente tres elementos: combustible, oxígeno y calor. Este concepto se conoce como el triángulo del fuego.</p>
-      <ul>
-        <li><strong>Combustible:</strong> Cualquier material que puede arder (madera, papel, combustibles, gases, etc.).</li>
-        <li><strong>Oxígeno:</strong> El fuego requiere al menos un 16% de concentración de oxígeno en el aire.</li>
-        <li><strong>Calor:</strong> La energía necesaria para iniciar y mantener la combustión.</li>
-      </ul>
-      <h2>¿Cómo se apaga un incendio?</h2>
-      <p>La extinción de un incendio se logra eliminando uno o más elementos del triángulo:</p>
-      <ul>
-        <li><strong>Eliminando el combustible:</strong> Cortando el suministro de gas, retirando materiales combustibles.</li>
-        <li><strong>Eliminando el oxígeno:</strong> Cubriendo el fuego (extintores de CO₂, espuma).</li>
-        <li><strong>Reduciendo el calor:</strong> Enfriando con agua o agentes extintores.</li>
-      </ul>
-      <h2>El Tetraedro del Fuego</h2>
-      <p>A los tres elementos clásicos se añade un cuarto: la reacción en cadena química. Los agentes limpios actúan interrumpiendo esta reacción sin dañar equipos electrónicos.</p>
-    `,
+    "slug": "tipos-de-proteccion",
+    "source": "blog3.html",
+    "metaTitle": "BLOG AFC PRO FIRE — Tus aliados contra el fuego: tipos de protección",
+    "description": "Blog informativo: tipos de protección contra incendios — protección activa (detectores, alarmas, extintores, rociadores, agentes limpios) y protección pasiva (puertas y sellos cortafuego, materiales resistentes, rutas de evacuación).",
+    "title": "Tus aliados contra el fuego: tipos de protección",
+    "date": "Ago 26, 2025",
+    "dateTime": "2025-08-26",
+    "image": "/assets/images/blog/grid/prevencion.png",
+    "categories": [
+      "Prevención",
+      "Sistemas"
+    ],
+    "styleCss": "/* ========= Ajustes del blog informativo ========= */\r\n    .blog-single .container {\r\n      max-width: 900px;\r\n    }\r\n\r\n    /* Todo el contenido en azul (sobre fondo blanco) */\r\n    .blog-single .post__body,\r\n    .blog-single .post__body * {\r\n      color: #004062 !important;\r\n    }\r\n\r\n    .post__meta *,\r\n    .post__title {\r\n      color: #004062 !important;\r\n    }\r\n\r\n    /* Solo informativa: sin botones, sin tags, sin sidebar */\r\n    .only-info .to-remove,\r\n    .only-info .blog-share,\r\n    .only-info .blog-tags,\r\n    .only-info aside {\r\n      display: none !important;\r\n    }\r\n\r\n    .post__body p {\r\n      margin-bottom: 1rem;\r\n      line-height: 1.7;\r\n    }\r\n\r\n    .post__img img {\r\n      width: 100%;\r\n      height: auto;\r\n      display: block;\r\n    }\r\n\r\n    /* Tabla comparativa */\r\n    .compare-table {\r\n      width: 100%;\r\n      border-collapse: collapse;\r\n      margin: 1rem 0 .5rem;\r\n    }\r\n\r\n    .compare-table th,\r\n    .compare-table td {\r\n      border: 1px solid #cfe1ee;\r\n      padding: 10px 12px;\r\n      vertical-align: top;\r\n    }\r\n\r\n    .compare-table th {\r\n      background: #eef6fb;\r\n      font-weight: 600;\r\n    }\r\n\r\n    .note {\r\n      font-size: .95rem;\r\n      opacity: .9;\r\n    }\r\n\r\n    /* Listas con mejor legibilidad */\r\n    .post__desc ul {\r\n      padding-left: 1.1rem;\r\n    }\r\n\r\n    .post__desc li {\r\n      margin-bottom: .4rem;\r\n    }",
+    "bodyHtml": "<h1 class=\"post__title\" itemprop=\"headline\">Tus aliados contra el fuego: tipos de protección</h1>\r\n\r\n                <div class=\"post__desc\" itemprop=\"articleBody\">\r\n                  <p>La seguridad contra incendios se organiza en dos grandes grupos que <strong>trabajan en\r\n                      conjunto</strong>: la <strong>protección activa</strong>, que <em>detecta, alerta y combate</em>\r\n                    el fuego, y la <strong>protección pasiva</strong>, que <em>contiene y ralentiza</em> su propagación\r\n                    para ganar tiempo de evacuación y respuesta.</p>\r\n\r\n                  <h2>Protección activa: los sistemas que actúan</h2>\r\n                  <ul>\r\n                    <li><strong>Detectores de humo y calor:</strong> los “oídos y nariz” del sistema. Identifican humo o\r\n                      aumentos bruscos de temperatura y activan la alarma: tu <em>primera línea de defensa</em>.</li>\r\n                    <li><strong>Alarmas contra incendios:</strong> bocinas, estrobos o mensajes de voz que <em>avisan a\r\n                        todos</em> para evacuar con rapidez.</li>\r\n                    <li><strong>Extintores:</strong> equipos portátiles (agua, polvo químico seco, CO₂). Úsalos\r\n                      <em>solo</em> si sabes cómo y la situación es segura. Recuerda <strong>P.A.S.S.</strong>\r\n                      (<em>Pull, Aim, Squeeze, Sweep</em>) o <em>Jalar, Apuntar, Apretar, Barrer</em>.</li>\r\n                    <li><strong>Sistemas de rociadores (sprinklers):</strong> “duchas” automáticas que se activan por\r\n                      calor. Normalmente <em>solo</em> descarga el rociador cercano al incendio, reduciendo daños por\r\n                      agua y controlando el fuego con alta eficacia.</li>\r\n                    <li><strong>Sistemas de agentes limpios/gases:</strong> ideales para <em>salas de servidores</em> o\r\n                      <em>archivos</em>; sofocan el fuego sin dañar equipos ni documentos.</li>\r\n                  </ul>\r\n\r\n                  <h2>Protección pasiva: las barreras de contención</h2>\r\n                  <ul>\r\n                    <li><strong>Puertas cortafuegos:</strong> resisten el fuego por un tiempo determinado y\r\n                      <em>sectorizan</em> para impedir el paso de llamas y humo.</li>\r\n                    <li><strong>Sellos cortafuegos:</strong> materiales especiales que tapan huecos en paso de\r\n                      <em>cables</em> y <em>tuberías</em>, evitando que el fuego “viaje” entre compartimentos.</li>\r\n                    <li><strong>Materiales resistentes al fuego:</strong> muros, techos y elementos estructurales\r\n                      diseñados para soportar calor por más tiempo.</li>\r\n                    <li><strong>Rutas de evacuación y señalización:</strong> pasillos, escaleras y salidas de emergencia\r\n                      <em>claramente señalizadas</em> y libres de obstáculos.</li>\r\n                  </ul>\r\n\r\n                  <h2>Activa vs. Pasiva: ¿en qué se diferencian?</h2>\r\n                  <table class=\"compare-table\" role=\"table\" aria-label=\"Comparación entre protección activa y pasiva\">\r\n                    <thead>\r\n                      <tr>\r\n                        <th scope=\"col\">Característica</th>\r\n                        <th scope=\"col\">Protección Activa</th>\r\n                        <th scope=\"col\">Protección Pasiva</th>\r\n                      </tr>\r\n                    </thead>\r\n                    <tbody>\r\n                      <tr>\r\n                        <td><strong>Propósito</strong></td>\r\n                        <td>Detectar, alertar y combatir el incendio.</td>\r\n                        <td>Contener el fuego y el humo; ganar tiempo.</td>\r\n                      </tr>\r\n                      <tr>\r\n                        <td><strong>Se activa por</strong></td>\r\n                        <td>Calor, humo o intervención humana.</td>\r\n                        <td>Está integrada al edificio; funciona “en silencio”.</td>\r\n                      </tr>\r\n                      <tr>\r\n                        <td><strong>Ejemplos</strong></td>\r\n                        <td>Detectores, alarmas, extintores, rociadores, agentes limpios.</td>\r\n                        <td>Puertas y sellos cortafuego, materiales RF, señalización y rutas.</td>\r\n                      </tr>\r\n                      <tr>\r\n                        <td><strong>Beneficio clave</strong></td>\r\n                        <td>Respuesta inmediata para controlar o extinguir.</td>\r\n                        <td>Limitar propagación y facilitar evacuación segura.</td>\r\n                      </tr>\r\n                    </tbody>\r\n                  </table>\r\n                  <p class=\"note\">La máxima protección se logra combinando <strong>ambos tipos</strong> según riesgo,\r\n                    ocupación y normativas aplicables.</p>\r\n\r\n                  <h2>Buenas prácticas esenciales</h2>\r\n                  <ul>\r\n                    <li>Mantén detectores, alarmas, bombas y rociadores con <em>mantenimiento periódico</em>.</li>\r\n                    <li>No obstruyas puertas y <em>rutas de evacuación</em>; verifica señalización visible.</li>\r\n                    <li>Ubica extintores accesibles, señalizados y con <em>carga vigente</em>.</li>\r\n                    <li>Capacita al personal en uso de extintores y <em>procedimientos de evacuación</em>.</li>\r\n                    <li>Inspecciona sellos cortafuego tras instalaciones de cables/tuberías.</li>\r\n                  </ul>\r\n\r\n                  <!-- (Opcional) Vínculo interno informativo: sin CTA comercial -->\r\n                  <p class=\"note\">¿Te perdiste los anteriores? Lee también: <a\r\n                      href=\"/blog/triangulo-del-fuego\">“Entendiendo al enemigo: lo básico del fuego”</a>.</p>\r\n                </div>"
   },
   {
-    id: 'blog1',
-    date: 'Ago 20, 2025',
-    image: 'incendioCasa.png',
-    categories: ['Prevención', 'Incendios'],
-    title: '¿Por qué es Vital?',
-    excerpt: 'Proteger vidas y bienes depende de sistemas instalados y mantenidos correctamente...',
-    content: `
-      <p>El fuego es una fuerza poderosa e impredecible que, en cuestión de minutos, puede transformar vidas y propiedades. Un incendio no solo amenaza estructuras; puede destruir recuerdos, medios de vida y, lo más importante, la vida misma.</p>
-      <h2>¿Qué está en juego?</h2>
-      <p>Además de poner en riesgo vidas, un incendio puede paralizar operaciones, afectar la reputación y generar sanciones por incumplimiento de normas. En el hogar, compromete la estructura y bienes irremplazables.</p>
-      <h2>Beneficios de la protección contra incendios</h2>
-      <ul>
-        <li><strong>Prevención y detección temprana:</strong> mejora el tiempo de respuesta.</li>
-        <li><strong>Continuidad operativa:</strong> reduce el impacto en el negocio.</li>
-        <li><strong>Cumplimiento normativo:</strong> evita multas y cierres.</li>
-        <li><strong>Tranquilidad:</strong> mayor seguridad para personas e instalaciones.</li>
-      </ul>
-      <h2>Medidas prácticas</h2>
-      <ul>
-        <li>Instalar detección y alarma en áreas críticas.</li>
-        <li>Definir rutas de evacuación y hacer simulacros periódicos.</li>
-        <li>Programar mantenimiento de rociadores, bombas y paneles.</li>
-        <li>Capacitar en uso de extintores y primeros auxilios.</li>
-      </ul>
-    `,
+    "slug": "triangulo-del-fuego",
+    "source": "blog2.html",
+    "metaTitle": "BLOG AFC PRO FIRE — Triángulo del Fuego y clases de incendio",
+    "description": "Blog informativo: comprende el Triángulo del Fuego (combustible, oxígeno y calor) y las clases de incendio A, B, C, D y K.",
+    "title": "Triángulo del Fuego y clases de incendio",
+    "date": "Ago 25, 2025",
+    "dateTime": "2025-08-25",
+    "image": "/assets/images/blog/grid/trianguloDeFuego.png",
+    "categories": [
+      "Prevención",
+      "Seguridad"
+    ],
+    "styleCss": "/* ========= Ajustes ========= */\r\n    .blog-single .container {\r\n      max-width: 900px;\r\n    }\r\n\r\n    .blog-single .post__body,\r\n    .blog-single .post__body * {\r\n      color: #004062 !important;\r\n    }\r\n\r\n    .page-title *,\r\n    .post__meta *,\r\n    .post__title {\r\n      color: #004062 !important;\r\n    }\r\n\r\n    .only-info .to-remove,\r\n    .only-info .blog-share,\r\n    .only-info .blog-tags,\r\n    .only-info aside {\r\n      display: none !important;\r\n    }\r\n\r\n    .post__img img {\r\n      width: 100%;\r\n      height: auto;\r\n      display: block\r\n    }\r\n\r\n    .post__body p {\r\n      margin-bottom: 1rem;\r\n      line-height: 1.7;\r\n    }\r\n\r\n    .fire-table {\r\n      width: 100%;\r\n      border-collapse: collapse;\r\n      margin: 1rem 0;\r\n    }\r\n\r\n    .fire-table th,\r\n    .fire-table td {\r\n      border: 1px solid #cfe1ee;\r\n      padding: 10px 12px;\r\n      vertical-align: top;\r\n    }\r\n\r\n    .fire-table th {\r\n      background: #eef6fb;\r\n      font-weight: 600;\r\n    }\r\n\r\n    .note {\r\n      font-size: .95rem;\r\n      opacity: .9;\r\n    }",
+    "bodyHtml": "<h1 class=\"post__title\" itemprop=\"headline\">Triángulo del Fuego y clases de incendio</h1>\r\n\r\n                <!-- ========== TRIÁNGULO DEL FUEGO (AZUL) DESPUÉS DEL TÍTULO ========== -->\r\n                <div class=\"triangle-wrap\" aria-hidden=\"false\">\r\n                  <svg viewBox=\"0 0 600 520\" role=\"img\"\r\n                    aria-label=\"Triángulo del Fuego: Combustible, Oxígeno y Calor (con logo AFC PRO FIRE)\">\r\n                    <polygon points=\"300,40 560,480 40,480\" fill=\"none\" stroke=\"#004062\" stroke-width=\"6\"></polygon>\r\n                    <text x=\"300\" y=\"30\" text-anchor=\"middle\" font-size=\"20\" fill=\"#004062\">OXÍGENO</text>\r\n                    <text x=\"85\" y=\"505\" text-anchor=\"middle\" font-size=\"20\" fill=\"#004062\">COMBUSTIBLE</text>\r\n                    <text x=\"515\" y=\"505\" text-anchor=\"middle\" font-size=\"20\" fill=\"#004062\">CALOR</text>\r\n                    <line x1=\"300\" y1=\"60\" x2=\"300\" y2=\"90\" stroke=\"#004062\" stroke-width=\"3\"></line>\r\n                    <line x1=\"80\" y1=\"470\" x2=\"110\" y2=\"440\" stroke=\"#004062\" stroke-width=\"3\"></line>\r\n                    <line x1=\"520\" y1=\"470\" x2=\"490\" y2=\"440\" stroke=\"#004062\" stroke-width=\"3\"></line>\r\n                    <image href=\"/assets/images/logo/logo.png\" x=\"240\" y=\"200\" width=\"120\" height=\"120\"\r\n                      preserveAspectRatio=\"xMidYMid meet\" />\r\n                  </svg>\r\n                </div>\r\n                <!-- ================================================================ -->\r\n\r\n                <div class=\"post__desc\" itemprop=\"articleBody\">\r\n                  <p>Para protegernos, primero debemos entender qué es el fuego. Imagina un <strong>Triángulo del\r\n                      Fuego</strong>: <em>combustible</em>, <em>oxígeno</em> y <em>calor</em>. Si <strong>eliminas\r\n                      uno</strong> de estos elementos, el fuego <strong>no puede iniciarse</strong> o se\r\n                    <strong>apaga</strong>. Nuestros sistemas de protección trabajan precisamente para <strong>romper\r\n                      este triángulo</strong>.</p>\r\n\r\n                  <h2>Elementos del Triángulo</h2>\r\n                  <ul>\r\n                    <li><strong>Combustible:</strong> algo que pueda quemarse (madera, tela, gasolina, papel, etc.).\r\n                    </li>\r\n                    <li><strong>Oxígeno:</strong> el aire que respiramos y que alimenta las llamas.</li>\r\n                    <li><strong>Calor:</strong> la energía necesaria para iniciar la combustión (una chispa, una llama,\r\n                      una resistencia eléctrica).</li>\r\n                  </ul>\r\n\r\n                  <h2>Clases de incendio</h2>\r\n                  <table class=\"fire-table\">\r\n                    <thead>\r\n                      <tr>\r\n                        <th>Clase</th>\r\n                        <th>Combustible</th>\r\n                        <th>Ejemplos</th>\r\n                      </tr>\r\n                    </thead>\r\n                    <tbody>\r\n                      <tr>\r\n                        <td><strong>A</strong></td>\r\n                        <td>Materiales comunes</td>\r\n                        <td>Madera, papel, tela</td>\r\n                      </tr>\r\n                      <tr>\r\n                        <td><strong>B</strong></td>\r\n                        <td>Líquidos inflamables</td>\r\n                        <td>Gasolina, aceites, pinturas</td>\r\n                      </tr>\r\n                      <tr>\r\n                        <td><strong>C</strong></td>\r\n                        <td>Equipos eléctricos</td>\r\n                        <td>Enchufes, cables, aparatos</td>\r\n                      </tr>\r\n                      <tr>\r\n                        <td><strong>D</strong></td>\r\n                        <td>Metales combustibles</td>\r\n                        <td>Magnesio, titanio, potasio</td>\r\n                      </tr>\r\n                      <tr>\r\n                        <td><strong>K</strong></td>\r\n                        <td>Aceites y grasas de cocina</td>\r\n                        <td>Cocinas industriales</td>\r\n                      </tr>\r\n                    </tbody>\r\n                  </table>\r\n\r\n                  <p class=\"note\">Conocer estas clases es fundamental: no todos los extintores sirven para todo tipo de\r\n                    fuego.</p>\r\n                </div>"
   },
+  {
+    "slug": "proteccion-contra-incendios",
+    "source": "blog1.html",
+    "metaTitle": "BLOG AFC PRO FIRE — ¿Por qué la protección contra incendios es vital para ti?",
+    "description": "Blog informativo: ¿Por qué la protección contra incendios es vital para ti? Conoce riesgos y beneficios de prevenir incendios en hogares y negocios.",
+    "title": "¿Por qué la protección contra incendios es vital para ti?",
+    "date": "Ago 25, 2025",
+    "dateTime": "2025-08-25",
+    "image": "/assets/images/blog/grid/incendioCasa.png",
+    "categories": [
+      "Prevención",
+      "Incendios"
+    ],
+    "styleCss": "/* ========= Ajustes solicitados ========= */\r\n    /* Una sola columna (ancho cómodo de lectura) */\r\n    .blog-single .container {\r\n      max-width: 900px;\r\n    }\r\n\r\n    /* Todo el texto del CONTENIDO en azul (fondo blanco) */\r\n    .blog-single .post__body,\r\n    .blog-single .post__body * {\r\n      color: #004062 !important;\r\n      /* azul corporativo */\r\n    }\r\n\r\n    /* Meta, título y breadcrumbs también azules */\r\n    .page-title *,\r\n    .post__meta *,\r\n    .post__title {\r\n      color: #004062 !important;\r\n    }\r\n\r\n    /* El artículo es solo informativo: sin botones, sin compartir, sin tags, sin sidebar */\r\n    .only-info .to-remove,\r\n    .only-info .blog-share,\r\n    .only-info .blog-tags,\r\n    .only-info aside {\r\n      display: none !important;\r\n    }\r\n\r\n    /* Imagen responsive */\r\n    .post__img img {\r\n      width: 100%;\r\n      height: auto;\r\n      display: block\r\n    }\r\n\r\n    /* Separaciones suaves */\r\n    .post__body p {\r\n      margin-bottom: 1rem;\r\n      line-height: 1.7;\r\n    }",
+    "bodyHtml": "<h1 class=\"post__title\" itemprop=\"headline\">¿Por qué la protección contra incendios es vital para ti?\r\n                </h1>\r\n\r\n                <!-- Contenido informativo (en azul) -->\r\n                <div class=\"post__desc\" itemprop=\"articleBody\">\r\n                  <p>El fuego es una fuerza poderosa e impredecible que, en cuestión de minutos, puede transformar vidas\r\n                    y propiedades. Un incendio no solo amenaza estructuras; puede destruir recuerdos, medios de vida y,\r\n                    lo más importante, la vida misma. Ignorar la protección contra incendios es como dejar una puerta\r\n                    abierta al desastre.</p>\r\n\r\n                  <p>Pero hay buenas noticias: la mayoría de los incendios son prevenibles, y sus daños pueden\r\n                    minimizarse si se actúa a tiempo. Invertir en seguridad contra incendios no es un gasto, es una\r\n                    inversión en tu tranquilidad, tu futuro y el bienestar de tus seres queridos o tu negocio. Te\r\n                    permite dormir o trabajar con la certeza de que estás protegido.</p>\r\n\r\n                  <h2>¿Qué está en juego?</h2>\r\n                  <p>Además de poner en riesgo vidas, un incendio puede paralizar operaciones, afectar la reputación y\r\n                    generar sanciones por incumplimiento de normas. En el hogar, compromete la estructura y bienes\r\n                    irremplazables.</p>\r\n\r\n                  <h2>Beneficios de la protección contra incendios</h2>\r\n                  <ul>\r\n                    <li><strong>Prevención y detección temprana:</strong> mejora el tiempo de respuesta.</li>\r\n                    <li><strong>Continuidad operativa:</strong> reduce el impacto en el negocio.</li>\r\n                    <li><strong>Cumplimiento normativo:</strong> evita multas y cierres.</li>\r\n                    <li><strong>Tranquilidad:</strong> mayor seguridad para personas e instalaciones.</li>\r\n                  </ul>\r\n\r\n                  <h2>Medidas prácticas</h2>\r\n                  <ul>\r\n                    <li>Instalar detección y alarma en áreas críticas.</li>\r\n                    <li>Definir rutas de evacuación y hacer simulacros periódicos.</li>\r\n                    <li>Programar mantenimiento de rociadores, bombas y paneles.</li>\r\n                    <li>Capacitar en uso de extintores y primeros auxilios.</li>\r\n                  </ul>\r\n                </div>"
+  }
 ]
+
+// Tarjetas del listado /blog, en el orden EXACTO de blog.html.
+export const blogList = [
+  {
+    "image": "/assets/images/blog/grid/hospital.png",
+    "date": "Mar 17, 2026",
+    "title": "Incendios en Hospitales: El Riesgo Invisible",
+    "excerpt": "Un hospital es uno de los pocos edificios donde la evacuación...",
+    "slug": "incendios-en-hospitales"
+  },
+  {
+    "image": "/assets/images/blog/grid/blog10.png",
+    "date": "Feb 1, 2026",
+    "title": "Guía Fundamental: ¿Quién es quién en los Códigos y Normas de Alarmas de Incendio?",
+    "excerpt": "Diseñar o instalar un sistema de alarma no es solo un engranaje...",
+    "slug": "codigos-y-normas-de-alarmas"
+  },
+  {
+    "image": "/assets/images/blog/grid/barIncendio.png",
+    "date": "Ene 17, 2026",
+    "title": "Tragedia en los Alpes: Lecciones de Seguridad",
+    "excerpt": "El pasado 1 de enero de 2026, lo que debía ser una celebración de Año Nuevo en el bar Le Constellation (Suiza)...",
+    "slug": "tragedia-en-los-alpes"
+  },
+  {
+    "image": "/assets/images/blog/grid/proteccionEdificios.png",
+    "date": "Ene 08, 2026",
+    "title": "¿Tu edificio está protegido realmente? La importancia del mantenimiento de redes contra incendios",
+    "excerpt": "Tener hidrantes y rociadores no basta: sin mantenimiento hay falsa seguridad, riesgo legal...",
+    "slug": "mantenimiento-de-redes-contra-incendio"
+  },
+  {
+    "image": "/assets/images/blog/grid/quemaduras.png",
+    "date": "Oct 29, 2025",
+    "title": "Primeros Auxilios en Quemaduras: Guía de Actuación",
+    "excerpt": "REACCIONAR CORRECTAMENTE HACE LA DIFERENCIA En una emergencia por quemaduras, los minutos iniciales son decisivos....",
+    "slug": "primeros-auxilios-en-quemaduras"
+  },
+  {
+    "image": "/assets/images/blog/grid/preguntas.png",
+    "date": "Sep 20, 2025",
+    "title": "Preguntas Frecuentes (FAQ)",
+    "excerpt": "Respuestas claras a las dudas más comunes sobre detectores, extintores y evacuación...",
+    "slug": "preguntas-frecuentes-faq"
+  },
+  {
+    "image": "/assets/images/blog/grid/incendios.png",
+    "date": "Sep 9, 2025",
+    "title": "Desmintiendo Mitos Comunes",
+    "excerpt": "El fuego pequeño no siempre se extingue solo. Descubre los mitos que pueden costar vidas...",
+    "slug": "desmintiendo-mitos-comunes"
+  },
+  {
+    "image": "/assets/images/blog/grid/seguridad.png",
+    "date": "Sep 2, 2025",
+    "title": "¿Qué Puedes Hacer Tú?",
+    "excerpt": "Consejos prácticos en casa y oficina: detectores, extintores, planes de evacuación...",
+    "slug": "que-puedes-hacer-tu"
+  },
+  {
+    "image": "/assets/images/blog/grid/integracion.png",
+    "date": "Ago 30, 2025",
+    "title": "La Sinergia de la Seguridad",
+    "excerpt": "Así trabajan juntos detectores, alarmas, rociadores y evacuación para salvar vidas...",
+    "slug": "la-sinergia-de-la-seguridad"
+  },
+  {
+    "image": "/assets/images/blog/grid/prevencion.png",
+    "date": "Ago 28, 2025",
+    "title": "Tipos de Protección",
+    "excerpt": "Protección activa: detectores, alarmas, rociadores. Protección pasiva: barreras, sellos...",
+    "slug": "tipos-de-proteccion"
+  },
+  {
+    "image": "/assets/images/blog/grid/trianguloDeFuego.png",
+    "date": "Ago 25, 2025",
+    "title": "Lo Básico del Fuego",
+    "excerpt": "El triángulo del fuego: combustible, oxígeno y calor. Romperlo es clave para apagarlo...",
+    "slug": "triangulo-del-fuego"
+  },
+  {
+    "image": "/assets/images/blog/grid/incendioCasa.png",
+    "date": "Ago 20, 2025",
+    "title": "¿Por qué es Vital?",
+    "excerpt": "Proteger vidas y bienes depende de sistemas instalados y mantenidos correctamente...",
+    "slug": "proteccion-contra-incendios"
+  }
+]
+
+export const getPost = (slug) => blogPosts.find((p) => p.slug === slug)
