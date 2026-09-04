@@ -1,0 +1,40 @@
+/* Extraído de <style> en blog1.html..blog12.html (bloque común a todos). */
+
+/* Una sola columna (ancho cómodo de lectura) */
+.blog-single .container {
+  max-width: 900px;
+}
+
+/* Todo el texto del CONTENIDO en azul (fondo blanco) */
+.blog-single .post__body,
+.blog-single .post__body * {
+  color: #004062 !important;
+}
+
+/* Meta, título y breadcrumbs también azules */
+.blog-single .page-title *,
+.blog-single .post__meta *,
+.blog-single .post__title {
+  color: #004062 !important;
+}
+
+/* El artículo es solo informativo: sin botones, sin compartir, sin tags, sin sidebar */
+.only-info .to-remove,
+.only-info .blog-share,
+.only-info .blog-tags,
+.only-info aside {
+  display: none !important;
+}
+
+/* Imagen responsive */
+.blog-single .post__img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Separaciones suaves */
+.blog-single .post__body p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
