@@ -1,4 +1,4 @@
-/* Fade-out del preloader y logo AFC centrado dentro del spinner. */
+/* Fade-out del preloader (el spinner del tema queda tal cual). */
 
 .preloader {
   transition: opacity 0.4s ease, visibility 0.4s ease;
@@ -8,29 +8,4 @@
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-}
-
-.preloader .loading {
-  width: 90px;
-  height: 90px;
-}
-
-.preloader .loading .preloader__logo {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 44px;
-  height: auto;
-  transform: translate(-50%, -50%);
-  animation: afcPreloaderPulse 1.6s ease-in-out infinite;
-}
-
-@keyframes afcPreloaderPulse {
-  0%,
-  100% {
-    opacity: 0.85;
-  }
-  50% {
-    opacity: 1;
-  }
 }

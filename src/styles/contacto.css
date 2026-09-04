@@ -2,6 +2,14 @@
 
 .contact-layout1 .contact-panel {
   padding: 0;
+  align-items: stretch;
+}
+
+/* El .mb-30 dejaba una franja blanca bajo el panel naranja: la quitamos para
+   que el panel naranja llegue hasta abajo (misma altura que el formulario). */
+.contact-layout1 .contact__panel-info,
+.contact-layout1 .contact__panel-form {
+  margin-bottom: 0;
 }
 
 .contact-layout1 .contact__panel-info {

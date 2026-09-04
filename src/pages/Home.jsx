@@ -234,7 +234,9 @@ export default function Home() {
                       <i className="fa fa-play"></i>
                     </div>
                   </a>
-                  <span className="video__btn-title">Ver el video</span>
+                  <span className="video__btn-title" style={{ color: '#000' }}>
+                    Ver el video
+                  </span>
                 </div>
               </div>
             </div>

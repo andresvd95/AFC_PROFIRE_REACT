@@ -81,3 +81,38 @@
     height: 240px;
   }
 }
+
+/* ======= Tarjetas de servicio (carruseles del index) a igual altura ======= */
+.services-layout2 .slick-carousel .slick-track {
+  display: flex;
+}
+
+.services-layout2 .slick-carousel .slick-slide {
+  height: auto;
+}
+
+.services-layout2 .slick-carousel .slick-slide > div {
+  height: 100%;
+}
+
+.services-layout2 .service-item {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.services-layout2 .service-item .service__body {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+.services-layout2 .service-item .service__desc {
+  flex: 1 1 auto;
+}
+
+.services-layout2 .service-item .btn {
+  margin-top: auto;
+  align-self: flex-start;
+}
+

@@ -25,6 +25,7 @@ test('dos carruseles de servicios con 6 enlaces "Ver más"', () => {
 test('about con popup-video y features con 4 imágenes', () => {
   setup()
   expect(document.querySelector('a.popup-video')).toHaveAttribute('href', '/assets/images/gallery/video-afc.mp4')
+  expect(screen.getByText('Ver el video')).toHaveStyle({ color: 'rgb(0, 0, 0)' })
   expect(screen.getByRole('heading', { name: 'Hemos ejecutado diversos proyectos' })).toBeInTheDocument()
   expect(document.querySelectorAll('.feature-card img')).toHaveLength(4)
 })

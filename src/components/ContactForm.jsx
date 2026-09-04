@@ -1,5 +1,6 @@
 import { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
+import '../styles/contact-form.css'
 
 // Formulario general de asesoría. Fiel a <form id="contactForm"> de index.html.
 // Envía con EmailJS -> service_433wpss / template_l61hkol.
@@ -91,7 +92,7 @@ export default function ContactForm() {
 
           <div className="col-12">
             <span className="font-weight-bold color-heading d-block mb-15 mt-10">Medio de contacto</span>
-            <div className="d-flex">
+            <div className="d-flex contact-form__radios">
               <label className="label-radio mr-30">
                 Todos
                 <input type="radio" name="contact_pref" value="Todos" defaultChecked />

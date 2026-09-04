@@ -1,0 +1,21 @@
+/* Formulario de asesoría (ContactForm) — espaciado tras "Medio de contacto"
+   y botón de envío menos voluminoso. */
+
+.contact-panel form .contact-form__radios {
+  margin-top: 4px;
+  margin-bottom: 6px;
+}
+
+.contact-panel form .contact-form__radios .label-radio {
+  margin-bottom: 10px;
+}
+
+.contact-panel form button[type='submit'].btn__block {
+  margin-top: 26px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.contact-panel form .contact-result {
+  margin-top: 12px;
+}

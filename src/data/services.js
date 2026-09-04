@@ -30,8 +30,7 @@ export const services = [
     img: '/assets/images/services/instalacion.png',
     home: {
       title: 'Instalación y puesta en marcha',
-      descHtml:
-        'Montaje, supervisión certificada, pruebas funcionales e hidrostáticas y actas de entrega.<br /><br />',
+      descHtml: 'Montaje, supervisión certificada, pruebas funcionales e hidrostáticas y actas de entrega.',
     },
     servicios: {
       group: 1,
@@ -47,7 +46,7 @@ export const services = [
     img: '/assets/images/services/mantenimiento.png',
     home: {
       title: 'Mantenimiento preventivo y correctivo',
-      descHtml: 'Planes NFPA 25, NFPA 72, inspecciones, pruebas, y reparaciones.<br />',
+      descHtml: 'Planes NFPA 25, NFPA 72, inspecciones, pruebas, y reparaciones.',
     },
     servicios: {
       group: 1,
@@ -64,8 +63,7 @@ export const services = [
     img: '/assets/images/services/gestion.png',
     home: {
       title: 'Gestión de riesgos y auditoría integral',
-      descHtml:
-        'Evaluación de riesgos, planes de emergencia y contingencia, auditoría e interventoría.<br /><br />',
+      descHtml: 'Evaluación de riesgos, planes de emergencia y contingencia, auditoría e interventoría.',
     },
     servicios: {
       group: 1,

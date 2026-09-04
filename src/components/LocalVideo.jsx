@@ -54,9 +54,7 @@ export default function LocalVideo({ src, poster, mode = 'cover' }) {
               <i className="fa fa-play"></i>
             </div>
           </button>
-          <span className="video__btn-title" style={{ color: '#000' }}>
-            Ver el video
-          </span>
+          <span className="video__btn-title">Ver el video</span>
         </div>
 
         <button className="video-close-btn" id="close-video-btn" type="button" aria-label="Cerrar video" onClick={close}>
