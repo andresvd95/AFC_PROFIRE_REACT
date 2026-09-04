@@ -76,6 +76,7 @@ scripts/build-blog-data.mjs Generador de src/data/blogPosts.js (ver abajo)
 | `/proyectos` | Galería de Proyectos | `proyectos.html` |
 | `/quienes-somos` | Quiénes Somos | `quienes-somos.html` |
 | `/contacto` | Contacto | `contacto.html` |
+| `/proveedores` | Proveedores (3 descargas) | nueva — `public/assets/docs/*` |
 | `/blog` | Blog (listado) | `blog.html` |
 | `/blog/:slug` | Artículo (12) | `blog1.html` … `blog12.html` |
 | `*` | 404 | — |
