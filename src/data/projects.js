@@ -33,14 +33,14 @@ export const galleryVideos = [
 
 // Galería reducida usada en el carrusel de quienes-somos.html (10 imágenes).
 export const aboutGallery = [
-  `${P}instalacion-1.png`,
-  `${P}instalacion-2.png`,
-  `${P}instalacion-3.png`,
-  `${P}instalacion-4.png`,
-  `${P}instalacion-5.png`,
-  `${P}sistema-1.png`,
-  `${P}sistema-2.png`,
-  `${P}sistema-3.png`,
-  `${P}sistema-4.png`,
-  `${P}sistema-5.png`,
+  { src: `${P}instalacion-1.png`, alt: 'Instalación 1' },
+  { src: `${P}instalacion-2.png`, alt: 'Instalación 2' },
+  { src: `${P}instalacion-3.png`, alt: 'Instalación 3' },
+  { src: `${P}instalacion-4.png`, alt: 'Instalación 4' },
+  { src: `${P}instalacion-5.png`, alt: 'Instalación 5' },
+  { src: `${P}sistema-1.png`, alt: 'Sistema 1' },
+  { src: `${P}sistema-2.png`, alt: 'Sistema 2' },
+  { src: `${P}sistema-3.png`, alt: 'Sistema 3' },
+  { src: `${P}sistema-4.png`, alt: 'Sistema 4' },
+  { src: `${P}sistema-5.png`, alt: 'Sistema 5' },
 ]
