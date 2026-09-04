@@ -1,0 +1,4 @@
+# Fuerza LF en archivos sensibles a fin de línea (Apache no tolera CRLF en .htaccess)
+.htaccess text eol=lf
+*.sh text eol=lf
+*.mjs text eol=lf
