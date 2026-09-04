@@ -2,6 +2,14 @@
 
 .proveedores-section {
   background: #f8f9fa;
+  overflow: hidden;
+}
+
+.proveedores-intro {
+  color: #5b6670;
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 0;
 }
 
 .proveedores-section .row.proveedores-cards {
@@ -71,7 +79,10 @@
 
 .proveedor-card__btn.btn {
   align-self: stretch;
+  width: 100%;
+  min-width: 0;
   justify-content: center;
+  white-space: normal;
 }
 
 .proveedor-card__size {

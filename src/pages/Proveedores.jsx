@@ -17,7 +17,7 @@ export default function Proveedores() {
         <div className="container">
           <div className="row mb-50">
             <div className="col-lg-8 mx-auto text-center">
-              <p className="heading__desc">
+              <p className="proveedores-intro">
                 Si deseas ser proveedor de AFC Pro Fire o actualizar tus datos, descarga aquí los formatos de nuestro
                 Sistema de Gestión de Compras.
               </p>
