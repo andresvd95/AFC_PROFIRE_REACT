@@ -1,4 +1,4 @@
-import { screen } from '@testing-library/react'
+import { screen, within } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { test, expect, vi } from 'vitest'
 import { renderRoute } from '../../test/renderRoute'
@@ -26,8 +26,9 @@ test('vídeo local y carrusel de 10 imágenes', () => {
 
 test('CTA final incluye el teléfono', () => {
   setup()
-  expect(screen.getByText(/También puedes llamarnos al/)).toBeInTheDocument()
-  const tel = screen.getByRole('link', { name: '311 645 6726' })
+  const p = screen.getByText(/También puedes llamarnos al/)
+  expect(p).toBeInTheDocument()
+  const tel = within(p).getByRole('link', { name: '311 645 6726' })
   expect(tel).toHaveAttribute('href', 'tel:+573116456726')
 })
 
