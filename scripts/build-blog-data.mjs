@@ -43,7 +43,7 @@ const EXTRA_LINKS = {
   'blog-proteccion-contra-incendios.html': 'proteccion-contra-incendios',
 }
 
-const meta = JSON.parse(readFileSync(resolve(ROOT, 'src/content/_meta.json'), 'utf8'))
+const meta = JSON.parse(readFileSync(resolve(__dirname, 'blog-meta.json'), 'utf8'))
 
 const clean = (s) => s.replace(/\s+/g, ' ').trim()
 const stripTags = (s) => clean(s.replace(/<[^>]+>/g, ' '))

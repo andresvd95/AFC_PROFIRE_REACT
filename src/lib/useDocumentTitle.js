@@ -1,4 +1,4 @@
-// Título del documento por ruta. Valores de src/content/_meta.json (sitio original).
+// Título del documento por ruta. Valores tomados de los <title> del sitio original.
 
 const FIXED = {
   '/': 'AFC PRO FIRE - Expertos en sistemas contra incendios',

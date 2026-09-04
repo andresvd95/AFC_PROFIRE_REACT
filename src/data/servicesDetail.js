@@ -5,7 +5,7 @@
 // bannerImg conserva la ruta LITERAL del original (varias apuntan a
 // page-titles/incendio.jpg y capacitacion.jpg, que no existen en el sitio original:
 // se replica la referencia rota — ver docs/PRD.md §8).
-// metaTitle: de src/content/_meta.json.
+// metaTitle: del <title> de cada HTML original (ver scripts/blog-meta.json).
 
 export const servicesDetail = [
   {
