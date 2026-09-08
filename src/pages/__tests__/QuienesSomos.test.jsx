@@ -24,6 +24,16 @@ test('vídeo local y carrusel de 10 imágenes', () => {
   expect(screen.getByRole('link', { name: /Ver todos los proyectos/ })).toHaveAttribute('href', '/proyectos')
 })
 
+test('sección de certificaciones con 3 tarjetas', () => {
+  setup()
+  expect(screen.getByRole('heading', { name: 'Certificaciones' })).toBeInTheDocument()
+  const cards = document.querySelectorAll('.certs-grid .cert-card')
+  expect(cards).toHaveLength(3)
+  expect(screen.getByAltText(/Registro Único de Proponentes/)).toBeInTheDocument()
+  expect(screen.getByAltText('Notifier by Honeywell')).toBeInTheDocument()
+  expect(screen.getByAltText('Honeywell Farenhyt Series')).toBeInTheDocument()
+})
+
 test('CTA final incluye el teléfono', () => {
   setup()
   const p = screen.getByText(/También puedes llamarnos al/)

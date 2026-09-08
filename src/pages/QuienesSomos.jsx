@@ -74,6 +74,36 @@ export default function QuienesSomos() {
         </div>
       </section>
 
+      {/* CERTIFICACIONES: formación y respaldo del equipo */}
+      <section className="certs-section">
+        <div className="container">
+          <div className="certs-head">
+            <span className="certs-kicker">Respaldo y formación</span>
+            <h3 className="certs-title">Certificaciones</h3>
+            <p className="certs-desc">
+              Impulsados por un propósito superior y los principios del capitalismo consciente, en{' '}
+              <strong>AFC Pro Fire</strong> cultivamos el aprendizaje constante en nuestro equipo. Esto se traduce en
+              certificaciones de excelencia y en un compromiso inquebrantable con la calidad de cada proyecto.
+            </p>
+          </div>
+
+          <div className="certs-grid">
+            <div className="cert-card">
+              <img
+                src="/assets/images/certificaciones/rup-camara-comercio.png"
+                alt="Registro Único de Proponentes - Cámara de Comercio de Colombia"
+              />
+            </div>
+            <div className="cert-card">
+              <img src="/assets/images/certificaciones/notifier-honeywell.png" alt="Notifier by Honeywell" />
+            </div>
+            <div className="cert-card">
+              <img src="/assets/images/certificaciones/honeywell-farenhyt.png" alt="Honeywell Farenhyt Series" />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* 4. GALERÍA */}
       <section className="section-pad" style={{ backgroundColor: '#f8f9fa' }}>
         <div className="container">
